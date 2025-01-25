@@ -77,3 +77,6 @@ Panda/Saved/Autosaves/PackageRestoreData.json
 *.ini
 *.json
 *.ini
+*.ini
+*.png
+/Panda/Saved/Autosaves
