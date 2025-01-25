@@ -10273,3 +10273,250 @@ Script call stack:
 [2025.01.25-17.38.08:111][796]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.25-17.38.08:112][796]AssetCheck: /Game/MarcContents/UI/BP_UI_MM Validating asset
 [2025.01.25-17.38.08:906][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.01.25-17.39.44:841][404]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-17.39.44:848][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-17.39.44:848][404]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.25-17.39.44:849][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001011s)
+[2025.01.25-17.39.44:849][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001046s)
+[2025.01.25-17.39.44:875][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.01.25-17.39.44:885][404]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.25-17.39.44:888][404]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2025.01.25-17.39.44:888][404]LogAudio: Display: Creating Audio Device:                 Id: 109, Scope: Unique, Realtime: True
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-17.39.44:888][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-17.39.44:888][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-17.39.44:888][404]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-17.39.44:888][404]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-17.39.44:888][404]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-17.39.44:891][404]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-17.39.44:943][404]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.25-17.39.44:944][404]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-17.39.44:944][404]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-17.39.44:944][404]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-17.39.44:944][404]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=109
+[2025.01.25-17.39.44:944][404]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=109
+[2025.01.25-17.39.44:947][404]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=109
+[2025.01.25-17.39.44:947][404]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=109
+[2025.01.25-17.39.44:947][404]LogInit: FAudioDevice initialized with ID 109.
+[2025.01.25-17.39.44:947][404]LogAudio: Display: Audio Device (ID: 109) registered with world 'MainMenuLevel'.
+[2025.01.25-17.39.44:947][404]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 109
+[2025.01.25-17.39.44:951][404]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.25-17.39.44:951][404]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.25-18.39.44
+[2025.01.25-17.39.44:951][404]LogWorld: Bringing up level for play took: 0.000404
+[2025.01.25-17.39.44:954][404]LogOnline: OSS: Created online subsystem instance for: :Context_217
+[2025.01.25-17.39.44:957][404]PIE: Server logged in
+[2025.01.25-17.39.44:958][404]PIE: Play in editor total start time 0.109 seconds.
+[2025.01.25-17.39.53:199][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.40.14:879][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.40.14:879][191]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.25-17.40.14:880][191]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-17.40.14:880][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.40.14:885][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-17.40.14:892][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.40.14:915][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.40.14:915][191]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 109
+[2025.01.25-17.40.14:915][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109
+[2025.01.25-17.40.14:918][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109
+[2025.01.25-17.40.14:927][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2025.01.25-17.40.14:966][192]LogPlayLevel: Display: Destroying online subsystem :Context_217
+[2025.01.25-17.40.14:992][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.01.25-17.40.21:805][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.01.25-17.40.21:812][593]LogStreaming: Display: FlushAsyncLoading(637): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-17.40.21:834][593]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.25-17.40.21:836][593]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MarcContents/Levels/PlayLevel.PlayLevel
+[2025.01.25-17.40.21:836][593]Cmd: MAP LOAD FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/PlayLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-17.40.21:891][593]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-17.40.21:891][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.40.21:914][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-17.40.21:916][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.25-17.40.21:924][593]LogWorld: UWorld::CleanupWorld for PlayLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-17.40.21:924][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.40.21:950][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.01.25-17.40.22:014][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.01.25-17.40.22:042][593]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlayLevel'.
+[2025.01.25-17.40.22:042][593]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.25-17.40.22:060][593]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-17.40.22:087][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.01.25-17.40.22:101][593]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-17.40.22:101][593]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.067ms to complete.
+[2025.01.25-17.40.31:316][127]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MarcContents/Blueprints/BP_GameManager.BP_GameManager
+[2025.01.25-17.40.31:318][127]LogChaosDD: Creating Chaos Debug Draw Scene for world World_144
+[2025.01.25-17.41.35:974][708]LogEditorTransaction: Undo Create Pin Link
+[2025.01.25-17.41.42:677][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 32340.322266
+[2025.01.25-17.41.42:844][ 71]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-17.41.42:844][ 71]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 32340.474609, Update Interval: 353.422638
+[2025.01.25-17.42.10:797][691]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-17.42.10:836][691]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MarcContents/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.25-17.42.10:836][691]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/Blueprints/BP_GameManager]
+[2025.01.25-17.42.10:836][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/Blueprints/BP_GameManager" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.25-17.42.10:880][691]LogSavePackage: Moving output files for package: /Game/MarcContents/Blueprints/BP_GameManager
+[2025.01.25-17.42.10:880][691]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_GameManager658D402B43EACEB38549B38B8AC5C9B7.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset'
+[2025.01.25-17.42.10:895][691]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.717 ms (total: 16.9 sec)
+[2025.01.25-17.42.10:930][691]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-17.42.10:930][691]LogContentValidation: Enabled validators:
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-17.42.10:930][691]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-17.42.10:930][691]AssetCheck: /Game/MarcContents/Blueprints/BP_GameManager Validating asset
+[2025.01.25-17.42.12:412][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-17.42.12:430][779]LogPlayLevel: [PlayLevel] Compiling BP_GameManager before play...
+[2025.01.25-17.42.12:837][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.25-17.42.12:849][779]LogPlayLevel: PlayLevel: Blueprint regeneration took 428 ms (1 blueprints)
+[2025.01.25-17.42.12:849][779]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_PlayLevel
+[2025.01.25-17.42.12:851][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001917s)
+[2025.01.25-17.42.12:851][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/PlayLevel.PlayLevel to /Game/MarcContents/Levels/UEDPIE_0_PlayLevel.PlayLevel (0.001955s)
+[2025.01.25-17.42.12:877][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.01.25-17.42.12:882][779]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.25-17.42.12:884][779]LogPlayLevel: PIE: World Init took: (0.001686s)
+[2025.01.25-17.42.12:885][779]LogAudio: Display: Creating Audio Device:                 Id: 110, Scope: Unique, Realtime: True
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-17.42.12:885][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-17.42.12:885][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-17.42.12:885][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-17.42.12:885][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-17.42.12:885][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-17.42.12:887][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-17.42.12:941][779]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.25-17.42.12:941][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-17.42.12:941][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-17.42.12:941][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-17.42.12:942][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=110
+[2025.01.25-17.42.12:942][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=110
+[2025.01.25-17.42.12:945][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=110
+[2025.01.25-17.42.12:945][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=110
+[2025.01.25-17.42.12:945][779]LogInit: FAudioDevice initialized with ID 110.
+[2025.01.25-17.42.12:945][779]LogAudio: Display: Audio Device (ID: 110) registered with world 'PlayLevel'.
+[2025.01.25-17.42.12:945][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 110
+[2025.01.25-17.42.12:991][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.42.12:991][779]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.25-17.42.12:992][779]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_PlayLevel.PlayLevel up for play (max tick rate 60) at 2025.01.25-18.42.12
+[2025.01.25-17.42.12:992][779]LogWorld: Bringing up level for play took: 0.001184
+[2025.01.25-17.42.12:996][779]LogOnline: OSS: Created online subsystem instance for: :Context_219
+[2025.01.25-17.42.12:997][779]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.25-17.42.13:000][779]PIE: Server logged in
+[2025.01.25-17.42.13:001][779]PIE: Play in editor total start time 0.581 seconds.
+[2025.01.25-17.43.01:334][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.43.01:334][614]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_PlayLevel
+[2025.01.25-17.43.01:336][614]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.25-17.43.01:342][614]LogWorld: UWorld::CleanupWorld for PlayLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-17.43.01:344][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.43.01:347][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-17.43.01:354][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.43.01:375][614]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 110
+[2025.01.25-17.43.01:375][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2025.01.25-17.43.01:377][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2025.01.25-17.43.01:386][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.01.25-17.43.01:425][615]LogPlayLevel: Display: Destroying online subsystem :Context_219
+[2025.01.25-17.43.42:659][ 24]LogStreaming: Display: FlushAsyncLoading(639): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-17.43.42:661][ 24]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sci-fi_explosion_06...
+[2025.01.25-17.43.42:674][ 24]LogAudioDerivedData: Display: sci-fi_explosion_06 compressed to 12.06% (from 562KB to 67KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.01.25-17.43.42:675][ 24]LogAudio: Display: Chunk stats for (SoundWave /Game/Sound/sci-fi_explosion_06.sci-fi_explosion_06: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=69465 bytes, ChunkN=0)
+[2025.01.25-17.43.57:980][927]LogStreaming: Display: FlushAsyncLoading(640): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-17.43.57:981][927]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave PP_Explosion_1_2...
+[2025.01.25-17.43.57:985][927]LogAudioDerivedData: Display: PP_Explosion_1_2 compressed to 19.05% (from 156KB to 29KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.01.25-17.43.57:985][927]LogAudio: Display: Chunk stats for (SoundWave /Game/Sound/PP_Explosion_1_2.PP_Explosion_1_2: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=30529 bytes, ChunkN=0)
+[2025.01.25-17.44.49:833][ 30]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-17.44.49:840][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-17.44.49:841][ 30]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_PlayLevel
+[2025.01.25-17.44.49:842][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001601s)
+[2025.01.25-17.44.49:842][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/PlayLevel.PlayLevel to /Game/MarcContents/Levels/UEDPIE_0_PlayLevel.PlayLevel (0.001637s)
+[2025.01.25-17.44.49:867][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.01.25-17.44.49:876][ 30]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.25-17.44.49:877][ 30]LogPlayLevel: PIE: World Init took: (0.001951s)
+[2025.01.25-17.44.49:878][ 30]LogAudio: Display: Creating Audio Device:                 Id: 111, Scope: Unique, Realtime: True
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-17.44.49:878][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-17.44.49:878][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-17.44.49:878][ 30]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-17.44.49:878][ 30]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-17.44.49:878][ 30]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-17.44.49:881][ 30]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-17.44.49:933][ 30]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.25-17.44.49:933][ 30]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-17.44.49:933][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-17.44.49:933][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-17.44.49:934][ 30]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=111
+[2025.01.25-17.44.49:934][ 30]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=111
+[2025.01.25-17.44.49:937][ 30]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=111
+[2025.01.25-17.44.49:937][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=111
+[2025.01.25-17.44.49:937][ 30]LogInit: FAudioDevice initialized with ID 111.
+[2025.01.25-17.44.49:937][ 30]LogAudio: Display: Audio Device (ID: 111) registered with world 'PlayLevel'.
+[2025.01.25-17.44.49:937][ 30]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 111
+[2025.01.25-17.44.49:969][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.44.49:970][ 30]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.25-17.44.49:971][ 30]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_PlayLevel.PlayLevel up for play (max tick rate 60) at 2025.01.25-18.44.49
+[2025.01.25-17.44.49:971][ 30]LogWorld: Bringing up level for play took: 0.000975
+[2025.01.25-17.44.49:974][ 30]LogOnline: OSS: Created online subsystem instance for: :Context_220
+[2025.01.25-17.44.49:974][ 30]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.25-17.44.49:984][ 30]PIE: Server logged in
+[2025.01.25-17.44.49:990][ 30]PIE: Play in editor total start time 0.15 seconds.
+[2025.01.25-17.45.00:649][643]LogDerivedDataCache: C:/Users/riewe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.25-17.45.15:668][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-17.45.15:668][536]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_PlayLevel
+[2025.01.25-17.45.15:671][536]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.25-17.45.15:677][536]LogWorld: UWorld::CleanupWorld for PlayLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-17.45.15:677][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.45.15:679][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-17.45.15:686][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-17.45.15:710][536]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 111
+[2025.01.25-17.45.15:710][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2025.01.25-17.45.15:712][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2025.01.25-17.45.15:722][536]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.01.25-17.45.15:756][537]LogPlayLevel: Display: Destroying online subsystem :Context_220
+[2025.01.25-17.45.35:544][684]LogStreaming: Display: FlushAsyncLoading(641): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-17.45.35:548][684]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Collapse02...
+[2025.01.25-17.45.35:557][684]LogAudioDerivedData: Display: Collapse02 compressed to 20.10% (from 335KB to 67KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.01.25-17.45.35:558][684]LogAudio: Display: Chunk stats for (SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=69071 bytes, ChunkN=0)
+[2025.01.25-17.46.24:826][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-17.46.24:863][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MarcContents/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.25-17.46.24:863][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/Blueprints/BP_GameManager]
+[2025.01.25-17.46.24:863][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/Blueprints/BP_GameManager" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.25-17.46.24:907][600]LogSavePackage: Moving output files for package: /Game/MarcContents/Blueprints/BP_GameManager
+[2025.01.25-17.46.24:907][600]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_GameManager2EBD32814B47EABE06A41881827A97AC.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset'
+[2025.01.25-17.46.24:922][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.873 ms (total: 17.0 sec)
+[2025.01.25-17.46.24:961][600]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-17.46.24:961][600]LogContentValidation: Enabled validators:
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-17.46.24:961][600]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-17.46.24:961][600]AssetCheck: /Game/MarcContents/Blueprints/BP_GameManager Validating asset
+[2025.01.25-17.46.25:714][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.01.25-17.47.04:331][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-17.47.04:374][842]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI_MM] ([2] browsable assets)...
+[2025.01.25-17.47.04:378][842]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI_MM.BP_UI_MM]
+[2025.01.25-17.47.04:378][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI_MM]
+[2025.01.25-17.47.04:378][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI_MM" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI_MM.uasset" SILENT=true
+[2025.01.25-17.47.04:388][842]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI_MM
+[2025.01.25-17.47.04:389][842]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_MM737151D247DCE31D93F13AA081B9225F.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI_MM.uasset'
+[2025.01.25-17.47.04:407][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.152 ms (total: 17.1 sec)
+[2025.01.25-17.47.04:453][842]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-17.47.04:453][842]LogContentValidation: Enabled validators:
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-17.47.04:453][842]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-17.47.04:454][842]AssetCheck: /Game/MarcContents/UI/BP_UI_MM Validating asset
+[2025.01.25-17.47.06:580][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
