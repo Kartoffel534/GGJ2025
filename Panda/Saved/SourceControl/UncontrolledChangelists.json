@@ -9,11 +9,7 @@
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/PlayLevel.umap",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset",
-				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Up.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Mapping.uasset",
-				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Left.uasset",
-				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Down.uasset",
-				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Right.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_PlayerController.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Beaker.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Beaker_Mat.uasset",
@@ -33,6 +29,11 @@
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Left1.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Right1.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Up1.uasset",
+				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_Pawn.uasset",
+				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Up.uasset",
+				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Left.uasset",
+				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Down.uasset",
+				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Input/IA_Right.uasset",
 				"C:/Ordner/Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_SelectableCards.uasset",
 				"/Users/peter/Documents/GitHub/GGJ2025/Panda/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
 			]
