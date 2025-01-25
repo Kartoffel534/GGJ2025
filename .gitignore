@@ -73,3 +73,10 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 Panda/Saved/Autosaves/PackageRestoreData.json
+*.json
+*.ini
+*.json
+*.ini
+*.ini
+*.png
+/Panda/Saved/Autosaves
