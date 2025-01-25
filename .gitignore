@@ -80,3 +80,4 @@ Panda/Saved/Autosaves/PackageRestoreData.json
 *.ini
 *.png
 /Panda/Saved/Autosaves
+/Panda/Intermediate/ReimportCache
