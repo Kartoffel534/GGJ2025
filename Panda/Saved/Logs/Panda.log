@@ -2504,3 +2504,959 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2025.01.26-13.32.06:545][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
 [2025.01.26-13.32.06:567][501]LogPlayLevel: Display: Destroying online subsystem :Context_16
 [2025.01.26-13.32.06:623][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.01.26-13.35.31:241][ 75]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4653.916992
+[2025.01.26-13.35.31:407][ 85]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.35.31:407][ 86]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4654.067383, Update Interval: 328.490234
+[2025.01.26-13.35.46:470][989]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.35.46:478][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.35.46:478][989]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.35.46:479][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001224s)
+[2025.01.26-13.35.46:479][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001271s)
+[2025.01.26-13.35.46:542][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.26-13.35.46:544][989]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.35.46:546][989]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2025.01.26-13.35.46:547][989]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.35.46:547][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.35.46:547][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.35.46:547][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.35.46:547][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.35.46:547][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.35.46:550][989]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.35.46:603][989]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.35.46:604][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.35.46:604][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.35.46:604][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.35.46:604][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.01.26-13.35.46:604][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.01.26-13.35.46:606][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.01.26-13.35.46:606][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.01.26-13.35.46:607][989]LogInit: FAudioDevice initialized with ID 11.
+[2025.01.26-13.35.46:607][989]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenuLevel'.
+[2025.01.26-13.35.46:607][989]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.01.26-13.35.46:641][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.35.46:642][989]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.35.46:642][989]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.35.46
+[2025.01.26-13.35.46:642][989]LogWorld: Bringing up level for play took: 0.000490
+[2025.01.26-13.35.46:645][989]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.01.26-13.35.46:645][989]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.35.46:648][989]PIE: Server logged in
+[2025.01.26-13.35.46:649][989]PIE: Play in editor total start time 0.172 seconds.
+[2025.01.26-13.35.46:650][989]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.35.48:778][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.35.48:912][ 99]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.36.10:245][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.36.10:245][378]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.36.10:245][378]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.36.10:250][378]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.36.10:250][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.36.10:254][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.36.10:260][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.36.10:327][378]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-13.36.10:327][378]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.01.26-13.36.10:327][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.01.26-13.36.10:329][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.01.26-13.36.10:336][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.26-13.36.10:355][379]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.01.26-13.36.10:405][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.26-13.36.13:096][541]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.36.13:104][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.36.13:104][541]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.36.13:105][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001024s)
+[2025.01.26-13.36.13:105][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001059s)
+[2025.01.26-13.36.13:157][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.26-13.36.13:159][541]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.36.13:160][541]LogPlayLevel: PIE: World Init took: (0.001545s)
+[2025.01.26-13.36.13:161][541]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.36.13:161][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.36.13:161][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.36.13:161][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.36.13:161][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.36.13:161][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.36.13:164][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.36.13:212][541]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.36.13:213][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.36.13:213][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.36.13:213][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.36.13:214][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.01.26-13.36.13:214][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.01.26-13.36.13:217][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.01.26-13.36.13:217][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.01.26-13.36.13:217][541]LogInit: FAudioDevice initialized with ID 12.
+[2025.01.26-13.36.13:217][541]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainMenuLevel'.
+[2025.01.26-13.36.13:217][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.01.26-13.36.13:238][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.36.13:238][541]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.36.13:238][541]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.36.13
+[2025.01.26-13.36.13:238][541]LogWorld: Bringing up level for play took: 0.000473
+[2025.01.26-13.36.13:241][541]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.01.26-13.36.13:242][541]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.36.13:246][541]PIE: Server logged in
+[2025.01.26-13.36.13:246][541]PIE: Play in editor total start time 0.143 seconds.
+[2025.01.26-13.36.13:248][541]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.36.46:308][500]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.36.47:080][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.36.47:214][550]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.40.27:752][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.40.27:752][766]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.40.27:752][766]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.40.27:758][766]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.40.27:758][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.40.27:761][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.40.27:767][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.40.27:836][766]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.01.26-13.40.27:836][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.01.26-13.40.27:839][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.01.26-13.40.27:847][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.01.26-13.40.27:874][767]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.01.26-13.40.27:931][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.01.26-13.40.32:862][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.01.26-13.41.57:962][433]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5040.639160
+[2025.01.26-13.41.58:962][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.41.58:962][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5041.305176, Update Interval: 347.727905
+[2025.01.26-13.42.13:763][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.42.13:763][620]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.42.13:764][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001111s)
+[2025.01.26-13.42.13:764][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001149s)
+[2025.01.26-13.42.13:823][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.01.26-13.42.13:825][620]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.42.13:826][620]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2025.01.26-13.42.13:827][620]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.42.13:827][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.42.13:827][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.42.13:827][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.42.13:827][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.42.13:827][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.42.13:830][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.42.13:879][620]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.42.13:880][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.42.13:880][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.42.13:880][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.42.13:880][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.01.26-13.42.13:880][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.01.26-13.42.13:884][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.01.26-13.42.13:884][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.01.26-13.42.13:884][620]LogInit: FAudioDevice initialized with ID 13.
+[2025.01.26-13.42.13:884][620]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenuLevel'.
+[2025.01.26-13.42.13:884][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.01.26-13.42.13:913][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.42.13:913][620]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.42.13:915][620]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.42.13
+[2025.01.26-13.42.13:915][620]LogWorld: Bringing up level for play took: 0.000713
+[2025.01.26-13.42.13:919][620]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.01.26-13.42.13:919][620]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.42.13:923][620]PIE: Server logged in
+[2025.01.26-13.42.13:924][620]PIE: Play in editor total start time 0.161 seconds.
+[2025.01.26-13.42.13:925][620]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.42.15:205][688]Cmd: quit
+[2025.01.26-13.42.15:206][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.42.15:206][688]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.42.15:206][688]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.42.15:244][688]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.42.15:244][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.42.15:247][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.42.15:254][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.42.15:319][688]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.01.26-13.42.15:319][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.01.26-13.42.15:321][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.01.26-13.42.15:330][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.01.26-13.42.15:350][689]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.01.26-13.42.55:609][118]LogStreaming: Display: FlushAsyncLoading(591): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-13.43.25:077][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.01.26-13.43.25:083][502]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.061
+[2025.01.26-13.43.25:084][502]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-13.43.25:088][502]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-13.43.25:088][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-13.43.25:088][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-13.43.25:171][502]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MarcContents/UI/BP_UI_Auto5
+[2025.01.26-13.43.25:171][502]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_Auto5C98E0665499FAAD59DC11FB24DCAE059.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto5.uasset'
+[2025.01.26-13.43.25:172][502]LogFileHelpers: Auto-saving content packages took 0.090
+[2025.01.26-13.43.40:966][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.43.41:008][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-13.43.41:008][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-13.43.41:008][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-13.43.41:083][288]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-13.43.41:084][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI2D8F2C0847C6D395D2D882AF95AF7D22.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-13.43.41:094][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.276 ms (total: 1.83 sec)
+[2025.01.26-13.43.41:130][288]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.43.41:130][288]LogContentValidation: Enabled validators:
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.43.41:130][288]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.43.41:131][288]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-13.48.21:521][587]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5424.138184
+[2025.01.26-13.48.21:673][596]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.48.21:673][596]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5424.271973, Update Interval: 344.895172
+[2025.01.26-13.50.38:524][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.50.38:565][526]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MarcContents/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.26-13.50.38:565][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/Blueprints/BP_GameManager]
+[2025.01.26-13.50.38:565][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/Blueprints/BP_GameManager" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.26-13.50.38:618][526]LogSavePackage: Moving output files for package: /Game/MarcContents/Blueprints/BP_GameManager
+[2025.01.26-13.50.38:618][526]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_GameManager4ADBC45E4F42AEF2986AC4AD92DB2541.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset'
+[2025.01.26-13.50.38:628][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.881 ms (total: 1.94 sec)
+[2025.01.26-13.50.38:667][526]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.50.38:667][526]LogContentValidation: Enabled validators:
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.50.38:667][526]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.50.38:667][526]AssetCheck: /Game/MarcContents/Blueprints/BP_GameManager Validating asset
+[2025.01.26-13.50.40:830][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.01.26-13.50.42:374][700]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.50.42:382][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.50.42:382][700]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.50.42:383][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001213s)
+[2025.01.26-13.50.42:383][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001253s)
+[2025.01.26-13.50.42:442][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.01.26-13.50.42:453][700]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.50.42:454][700]LogPlayLevel: PIE: World Init took: (0.001763s)
+[2025.01.26-13.50.42:456][700]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.50.42:456][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.50.42:456][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.50.42:456][700]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.50.42:456][700]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.50.42:456][700]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.50.42:459][700]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.50.42:513][700]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.50.42:513][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.50.42:513][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.50.42:513][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.50.42:514][700]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.01.26-13.50.42:514][700]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.01.26-13.50.42:516][700]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.01.26-13.50.42:517][700]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.01.26-13.50.42:517][700]LogInit: FAudioDevice initialized with ID 14.
+[2025.01.26-13.50.42:517][700]LogAudio: Display: Audio Device (ID: 14) registered with world 'MainMenuLevel'.
+[2025.01.26-13.50.42:517][700]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.01.26-13.50.42:520][700]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.50.42:520][700]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.50.42
+[2025.01.26-13.50.42:521][700]LogWorld: Bringing up level for play took: 0.000454
+[2025.01.26-13.50.42:523][700]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.01.26-13.50.42:527][700]PIE: Server logged in
+[2025.01.26-13.50.42:528][700]PIE: Play in editor total start time 0.146 seconds.
+[2025.01.26-13.50.42:530][700]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.50.43:395][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.50.43:533][752]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.51.03:508][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.51.03:510][949]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.51.03:510][949]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.51.03:510][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.51.03:514][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.51.03:520][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.51.03:592][949]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-13.51.03:592][949]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.01.26-13.51.03:592][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.01.26-13.51.03:594][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.01.26-13.51.03:598][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.51.03:600][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.01.26-13.51.03:621][950]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.01.26-13.51.03:678][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.26-13.53.38:715][ 98]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.53.38:722][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.53.38:722][ 98]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.53.38:723][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001109s)
+[2025.01.26-13.53.38:723][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001153s)
+[2025.01.26-13.53.38:785][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.01.26-13.53.38:791][ 98]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.53.38:792][ 98]LogPlayLevel: PIE: World Init took: (0.001643s)
+[2025.01.26-13.53.38:793][ 98]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.53.38:793][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.53.38:793][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.53.38:793][ 98]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.53.38:793][ 98]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.53.38:793][ 98]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.53.38:796][ 98]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.53.38:847][ 98]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.53.38:848][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.53.38:848][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.53.38:848][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.53.38:848][ 98]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.01.26-13.53.38:848][ 98]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.01.26-13.53.38:851][ 98]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.01.26-13.53.38:851][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.01.26-13.53.38:851][ 98]LogInit: FAudioDevice initialized with ID 15.
+[2025.01.26-13.53.38:851][ 98]LogAudio: Display: Audio Device (ID: 15) registered with world 'MainMenuLevel'.
+[2025.01.26-13.53.38:851][ 98]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.01.26-13.53.38:854][ 98]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.53.38:855][ 98]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.53.38
+[2025.01.26-13.53.38:855][ 98]LogWorld: Bringing up level for play took: 0.000458
+[2025.01.26-13.53.38:858][ 98]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.01.26-13.53.38:860][ 98]PIE: Server logged in
+[2025.01.26-13.53.38:861][ 98]PIE: Play in editor total start time 0.14 seconds.
+[2025.01.26-13.53.38:863][ 98]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.53.48:429][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.53.48:558][672]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.54.26:385][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.54.26:385][940]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.54.26:385][940]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.54.26:386][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.54.26:389][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.54.26:395][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.54.26:465][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.54.26:465][940]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.01.26-13.54.26:465][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.01.26-13.54.26:467][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.01.26-13.54.26:474][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.01.26-13.54.26:497][941]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.01.26-13.54.26:555][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.01.26-13.54.43:074][484]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-13.54.43:165][486]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1
+[2025.01.26-13.54.43:165][486]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1
+[2025.01.26-13.54.43:166][486]LogStreaming: Display: FlushAsyncLoading(595): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-13.54.43:170][486]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1 as actor: MediaPlate /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel:PersistentLevel.MediaPlate_0
+[2025.01.26-13.54.43:170][486]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1 as actor: MediaPlate /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel:PersistentLevel.MediaPlate_0
+[2025.01.26-13.54.44:470][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.01.26-13.54.44:474][559]LogEditorActor: Deleted 0 Actors (0.074 secs)
+[2025.01.26-13.54.45:151][599]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1
+[2025.01.26-13.54.45:151][599]LogActorFactory: Actor Factory attempting to spawn FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1
+[2025.01.26-13.54.45:152][599]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1 as actor: MediaPlate /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel:PersistentLevel.MediaPlate_1
+[2025.01.26-13.54.45:152][599]LogActorFactory: Actor Factory spawned FileMediaSource /Game/Art/Timer_empty_1.Timer_empty_1 as actor: MediaPlate /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel:PersistentLevel.MediaPlate_1
+[2025.01.26-13.54.45:213][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-13.54.45:215][600]LogEditorActor: Deleted 0 Actors (0.060 secs)
+[2025.01.26-13.55.05:795][693]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5828.390625
+[2025.01.26-13.55.06:795][696]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.55.06:795][696]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5829.057129, Update Interval: 321.669373
+[2025.01.26-13.56.55:008][ 57]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_0 and AvfFileMediaSourceFactory_0
+[2025.01.26-13.56.55:025][ 57]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\riewe\Downloads\Timer_empty_2.mov)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: ================================================
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Total job queries 13, among them cache hits 0 (0.00%), DDC hits 6 (46.15%), Duplicates 0 (0.00%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Tracking 13 distinct input hashes that result in 10 distinct outputs (76.92%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: RAM used: 60.92 KiB of 1.20 GiB budget. Usage: 0.00%
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Shaders Compiled: 7
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Job execution time: average 1.48 s, max 1.79 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Job life time (pending + execution): average 1.57 s, max 1.87
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Shader code size: average 6.464 KiB, min 2.777 KiB, max 10.969 KiB
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.88 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Average processing rate: 3.73 jobs/sec
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Total thread time: 3.811 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Total thread preprocess time: 0.178 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Percentage time preprocessing: 4.66%
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Effective parallelization: 2.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.82% of total time (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FVelocityPS - 13.93% of total time (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                 FLumenCardPS - 13.71% of total time (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FHitProxyPS - 13.31% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.30% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: === Material stats ===
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Materials Translated:    125
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Material Translation Only: 0.04 s (49%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: Material Cache Hits: 18 (14%)
+[2025.01.26-13.57.02:616][510]LogShaderCompilers: Display: ================================================
+[2025.01.26-13.57.35:839][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.26-13.57.35:857][241]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.102
+[2025.01.26-13.57.35:857][241]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Timer_empty_2] ([1] browsable assets)...
+[2025.01.26-13.57.35:857][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Timer_empty_2]
+[2025.01.26-13.57.35:857][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Timer_empty_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Timer_empty_2_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-13.57.35:859][241]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Timer_empty_2_Auto6
+[2025.01.26-13.57.35:859][241]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Timer_empty_2_Auto69D86252740908CC1EF17CCB32F12B8EE.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Timer_empty_2_Auto6.uasset'
+[2025.01.26-13.57.35:859][241]LogFileHelpers: Auto-saving content packages took 0.002
+[2025.01.26-13.57.48:687][997]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.57.48:705][997]LogPlayLevel: [PlayLevel] Compiling BP_UI before play...
+[2025.01.26-13.57.49:202][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.26-13.57.49:207][997]LogPlayLevel: PlayLevel: Blueprint regeneration took 511 ms (1 blueprints)
+[2025.01.26-13.57.49:207][997]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.57.49:209][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001068s)
+[2025.01.26-13.57.49:209][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001105s)
+[2025.01.26-13.57.49:266][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.01.26-13.57.49:268][997]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.57.49:270][997]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2025.01.26-13.57.49:270][997]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.57.49:270][997]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.57.49:270][997]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.57.49:270][997]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.57.49:270][997]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.57.49:270][997]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.57.49:273][997]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.57.49:327][997]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.57.49:327][997]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.57.49:327][997]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.57.49:327][997]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.57.49:328][997]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.01.26-13.57.49:328][997]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.01.26-13.57.49:330][997]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.01.26-13.57.49:330][997]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.01.26-13.57.49:330][997]LogInit: FAudioDevice initialized with ID 16.
+[2025.01.26-13.57.49:330][997]LogAudio: Display: Audio Device (ID: 16) registered with world 'MainMenuLevel'.
+[2025.01.26-13.57.49:330][997]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.01.26-13.57.49:366][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.57.49:366][997]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.57.49:367][997]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.57.49
+[2025.01.26-13.57.49:367][997]LogWorld: Bringing up level for play took: 0.000520
+[2025.01.26-13.57.49:370][997]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.01.26-13.57.49:371][997]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.57.49:375][997]PIE: Server logged in
+[2025.01.26-13.57.49:377][997]PIE: Play in editor total start time 0.681 seconds.
+[2025.01.26-13.57.49:378][997]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.57.50:567][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.57.50:710][ 46]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.57.53:281][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.57.53:281][198]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.57.53:281][198]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.57.53:287][198]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.57.53:287][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.57.53:290][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.57.53:296][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.57.53:363][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.01.26-13.57.53:363][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.01.26-13.57.53:365][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.01.26-13.57.53:371][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.26-13.57.53:401][199]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.01.26-13.57.53:460][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.01.26-13.58.33:800][156]LogContentBrowser: Deferred new asset file creation: Timer_Video_Mat
+[2025.01.26-13.58.33:812][156]LogContentBrowser: Creating deferred item: Timer_Video_Mat
+[2025.01.26-13.58.33:828][157]LogContentBrowser: Renaming the item being created (Deferred Item: Timer_Video_Mat).
+[2025.01.26-13.58.35:567][262]LogContentBrowser: Attempting asset rename: Timer_Video_Mat -> Timer_Video_Mat
+[2025.01.26-13.58.35:591][262]LogContentBrowser: End creating deferred item Timer_Video_Mat
+[2025.01.26-13.58.35:593][262]LogChaosDD: Creating Chaos Debug Draw Scene for world World_19
+[2025.01.26-13.58.59:831][ 79]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Art/Timer_Video_Mat.Timer_Video_Mat
+[2025.01.26-13.58.59:854][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.01.26-13.58.59:855][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.01.26-13.58.59:855][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.01.26-13.58.59:856][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.01.26-13.58.59:856][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.01.26-13.58.59:856][ 79]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.01.26-13.58.59:856][ 79]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.01.26-13.58.59:867][ 79]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2025.01.26-13.58.59:878][ 79]LogStreaming: Display: FlushAsyncLoading(597): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-13.59.00:343][ 79]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.00:343][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.00:343][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.00:343][ 79]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.00:343][ 79]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Texture samplers: 2/16
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Shader Count: 4
+[2025.01.26-13.59.00:466][ 81]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.04:574][322]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.04:575][322]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Shader Count: 2
+[2025.01.26-13.59.04:708][326]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.06:684][445]LogMaterialEditor: Applying material Timer_Video_Mat
+[2025.01.26-13.59.06:819][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.01.26-13.59.06:920][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.06:934][445]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Shader Count: 2
+[2025.01.26-13.59.06:962][447]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.08:577][544]LogMaterialEditor: Saving and Compiling material Timer_Video_Mat
+[2025.01.26-13.59.08:579][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.59.08:611][544]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Timer_Video_Mat] ([1] browsable assets)...
+[2025.01.26-13.59.08:636][544]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Timer_Video_Mat.Timer_Video_Mat]
+[2025.01.26-13.59.08:636][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Timer_Video_Mat]
+[2025.01.26-13.59.08:636][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Timer_Video_Mat" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset" SILENT=true
+[2025.01.26-13.59.08:638][544]LogSavePackage: Moving output files for package: /Game/Art/Timer_Video_Mat
+[2025.01.26-13.59.08:638][544]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Timer_Video_MatD208C85549A171F1877C369E58619830.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset'
+[2025.01.26-13.59.08:650][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.825 ms (total: 2.01 sec)
+[2025.01.26-13.59.08:683][544]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.59.08:683][544]LogContentValidation: Enabled validators:
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.59.08:683][544]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.59.08:683][544]AssetCheck: /Game/Art/Timer_Video_Mat Validating asset
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Texture samplers: 1/16
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Shader Count: 14
+[2025.01.26-13.59.08:692][544]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.09:821][611]LogSlate: Window 'Timer_Video_Mat' being destroyed
+[2025.01.26-13.59.09:826][611]LogSlate: Window 'Timer_Video_Mat' being destroyed
+[2025.01.26-13.59.18:248][847]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Art/Timer_Video_Mat.Timer_Video_Mat
+[2025.01.26-13.59.18:251][847]LogChaosDD: Creating Chaos Debug Draw Scene for world World_21
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.18:612][847]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Shader Count: 2
+[2025.01.26-13.59.18:682][850]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.21:753][ 31]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Default UI Pixel Shader: 46 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Texture samplers: 1/16
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Shader Count: 2
+[2025.01.26-13.59.22:571][ 78]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.39:489][446]LogMaterialEditor: Applying material Timer_Video_Mat
+[2025.01.26-13.59.39:608][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2025.01.26-13.59.39:705][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-13.59.39:718][446]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.39:718][446]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.39:718][446]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.39:718][446]MaterialEditorStats: Texture samplers: 0/16
+[2025.01.26-13.59.39:719][446]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.39:719][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.39:719][446]MaterialEditorStats: Shader Count: 0
+[2025.01.26-13.59.39:719][446]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Default UI Pixel Shader: 46 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+Stats: n/a
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Texture samplers: 1/16
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Shader Count: 2
+[2025.01.26-13.59.39:746][448]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.40:345][484]LogMaterialEditor: Saving and Compiling material Timer_Video_Mat
+[2025.01.26-13.59.40:348][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.59.40:380][484]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Timer_Video_Mat] ([1] browsable assets)...
+[2025.01.26-13.59.42:022][484]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Timer_Video_Mat.Timer_Video_Mat]
+[2025.01.26-13.59.42:022][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Timer_Video_Mat]
+[2025.01.26-13.59.42:022][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Timer_Video_Mat" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset" SILENT=true
+[2025.01.26-13.59.42:024][484]LogSavePackage: Moving output files for package: /Game/Art/Timer_Video_Mat
+[2025.01.26-13.59.42:024][484]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Timer_Video_MatF161F53249375C5DFC8964A5F03C16D5.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset'
+[2025.01.26-13.59.42:033][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.68 sec (total: 3.69 sec)
+[2025.01.26-13.59.42:069][484]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.59.42:069][484]LogContentValidation: Enabled validators:
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.59.42:069][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.59.42:069][484]AssetCheck: /Game/Art/Timer_Video_Mat Validating asset
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Default UI Pixel Shader: 46 instructions
+Stats: Resources Used: 1
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+Stats: Resources Used: 0
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Texture samplers: 2/16
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Shader Count: 14
+[2025.01.26-13.59.42:080][484]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.01.26-13.59.43:134][547]LogSlate: Window 'Timer_Video_Mat' being destroyed
+[2025.01.26-13.59.43:140][547]LogSlate: Window 'Timer_Video_Mat' being destroyed
+[2025.01.26-13.59.56:203][298]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.59.56:214][298]LogPlayLevel: [PlayLevel] Compiling BP_UI before play...
+[2025.01.26-13.59.56:621][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.01.26-13.59.56:625][298]LogPlayLevel: PlayLevel: Blueprint regeneration took 415 ms (1 blueprints)
+[2025.01.26-13.59.56:626][298]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.59.56:627][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000996s)
+[2025.01.26-13.59.56:627][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001040s)
+[2025.01.26-13.59.56:685][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.01.26-13.59.56:687][298]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.59.56:689][298]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2025.01.26-13.59.56:689][298]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.59.56:689][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.59.56:689][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.59.56:689][298]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.59.56:689][298]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.59.56:689][298]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.59.56:693][298]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.59.56:745][298]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.59.56:745][298]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.59.56:745][298]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.59.56:745][298]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.59.56:745][298]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.01.26-13.59.56:745][298]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.01.26-13.59.56:748][298]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.01.26-13.59.56:748][298]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.01.26-13.59.56:748][298]LogInit: FAudioDevice initialized with ID 17.
+[2025.01.26-13.59.56:748][298]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainMenuLevel'.
+[2025.01.26-13.59.56:748][298]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.01.26-13.59.56:788][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.59.56:789][298]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.59.56:789][298]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.59.56
+[2025.01.26-13.59.56:789][298]LogWorld: Bringing up level for play took: 0.000576
+[2025.01.26-13.59.56:792][298]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.01.26-13.59.56:793][298]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.59.56:797][298]PIE: Server logged in
+[2025.01.26-13.59.56:797][298]PIE: Play in editor total start time 0.588 seconds.
+[2025.01.26-13.59.56:799][298]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.59.58:255][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.59.58:388][367]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: ================================================
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Total job queries 93, among them cache hits 33 (35.48%), DDC hits 39 (41.94%), Duplicates 1 (1.08%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Tracking 59 distinct input hashes that result in 47 distinct outputs (79.66%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: RAM used: 74.54 KiB of 1.20 GiB budget. Usage: 0.01%
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Shaders Compiled: 20
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Average time worker was idle: 172.35 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.59 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Job execution time: average 0.97 s, max 1.79 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Job life time (pending + execution): average 1.09 s, max 1.87
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Shader code size: average 5.707 KiB, min 2.777 KiB, max 11.656 KiB
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.28 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Average processing rate: 4.68 jobs/sec
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Total thread time: 7.548 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Total thread preprocess time: 1.153 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Percentage time preprocessing: 15.27%
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.00 sec, max 1.00 sec, min 1.00 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.53 sec, max 0.64 sec, min 0.43 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.17% of total time (compiled    2 times, average 0.53 sec, max 0.64 sec, min 0.43 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                             FDebugViewModePS - 13.26% of total time (compiled    1 times, average 1.00 sec, max 1.00 sec, min 1.00 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                  FVelocityPS - 7.04% of total time (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.92% of total time (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display:                                                  FHitProxyPS - 6.72% of total time (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: === Material stats ===
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Materials Translated:    144
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Material Translation Only: 0.05 s (48%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: Material Cache Hits: 18 (13%)
+[2025.01.26-14.00.02:624][621]LogShaderCompilers: Display: ================================================
+[2025.01.26-14.00.03:274][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-14.00.03:274][658]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-14.00.03:274][658]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-14.00.03:280][658]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-14.00.03:280][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-14.00.03:283][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-14.00.03:290][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-14.00.03:362][658]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.01.26-14.00.03:362][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.01.26-14.00.03:364][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.01.26-14.00.03:371][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.01.26-14.00.03:399][659]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.01.26-14.00.03:453][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.01.26-14.00.07:146][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-14.00.07:178][877]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-14.00.07:182][877]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-14.00.07:182][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-14.00.07:182][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-14.00.07:260][877]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-14.00.07:260][877]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI06E130A94312B41C3EF051933AA71DEE.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-14.00.07:271][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 125.682 ms (total: 3.82 sec)
+[2025.01.26-14.00.07:307][877]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-14.00.07:307][877]LogContentValidation: Enabled validators:
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-14.00.07:307][877]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-14.00.07:309][877]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-14.01.25:666][889]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6208.261719
+[2025.01.26-14.01.26:666][892]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-14.01.26:666][892]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6208.928223, Update Interval: 332.787872
+[2025.01.26-14.03.20:846][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.01.26-14.03.23:726][139]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.26-14.03.27:373][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-14.03.27:405][351]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Timer_Video_Mat] ([1] browsable assets)...
+[2025.01.26-14.03.27:405][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Timer_Video_Mat]
+[2025.01.26-14.03.27:405][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Timer_Video_Mat" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset" SILENT=true
+[2025.01.26-14.03.27:407][351]LogSavePackage: Moving output files for package: /Game/Art/Timer_Video_Mat
+[2025.01.26-14.03.27:407][351]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Timer_Video_MatFD57E9C34032FF8472150F9B6BB34499.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_Video_Mat.uasset'
+[2025.01.26-14.03.27:415][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.152 ms (total: 3.86 sec)
+[2025.01.26-14.03.27:440][351]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-14.03.27:440][351]LogContentValidation: Enabled validators:
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-14.03.27:440][351]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-14.03.27:440][351]AssetCheck: /Game/Art/Timer_Video_Mat Validating asset
+[2025.01.26-14.03.29:443][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-14.03.29:485][471]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-14.03.29:489][471]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-14.03.29:489][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-14.03.29:489][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-14.03.29:566][471]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-14.03.29:566][471]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI6EBE68B344644EFBE141FE939E74525D.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-14.03.29:576][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.841 ms (total: 3.99 sec)
+[2025.01.26-14.03.29:601][471]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-14.03.29:601][471]LogContentValidation: Enabled validators:
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-14.03.29:601][471]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-14.03.29:602][471]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-14.03.34:843][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.26-14.03.39:155][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.26-14.03.41:570][990]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.26-14.03.45:384][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.26-14.03.46:950][215]LogSlate: Window 'Save Content' being destroyed
+[2025.01.26-14.03.46:963][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-14.03.47:003][215]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Timer_empty_2] ([1] browsable assets)...
+[2025.01.26-14.03.47:003][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Timer_empty_2]
+[2025.01.26-14.03.47:003][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Timer_empty_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_empty_2.uasset" SILENT=true
+[2025.01.26-14.03.47:004][215]LogSavePackage: Moving output files for package: /Game/Art/Timer_empty_2
+[2025.01.26-14.03.47:004][215]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Timer_empty_2821962BD4B99419084C568A3B75AE795.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Timer_empty_2.uasset'
+[2025.01.26-14.03.47:015][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.724 ms (total: 4.05 sec)
+[2025.01.26-14.03.47:058][215]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-14.03.47:058][215]LogContentValidation: Enabled validators:
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-14.03.47:058][215]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-14.03.47:058][215]AssetCheck: /Game/Art/Timer_empty_2 Validating asset
+[2025.01.26-14.07.29:515][690]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6572.099121
+[2025.01.26-14.07.30:515][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-14.07.30:515][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6572.766113, Update Interval: 306.513275
