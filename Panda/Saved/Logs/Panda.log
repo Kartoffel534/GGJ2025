@@ -2178,3 +2178,98 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.26-15.03.32:114][ 79]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.01.26-15.03.32:114][ 79]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.26-15.03.32:114][ 79]AssetCheck: /Game/Art/screen-menu-better Validating asset
+[2025.01.26-15.04.22:348][299]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1656.232056
+[2025.01.26-15.04.23:349][302]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-15.04.23:349][302]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1656.899536, Update Interval: 315.905029
+[2025.01.26-15.04.58:761][565]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.01.26-15.04.58:788][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.01.26-15.05.40:542][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.01.26-15.05.40:546][157]LogStreaming: Display: FlushAsyncLoading(565): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-15.05.40:566][157]LogChaosDD: Creating Chaos Debug Draw Scene for world TutorialLevel
+[2025.01.26-15.05.40:567][157]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MarcContents/Levels/TutorialLevel.TutorialLevel
+[2025.01.26-15.05.40:567][157]Cmd: MAP LOAD FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/TutorialLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.26-15.05.40:590][157]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.05.40:590][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.05.40:610][157]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-15.05.40:612][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.01.26-15.05.40:614][157]LogWorld: UWorld::CleanupWorld for TutorialLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.05.40:614][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.05.40:637][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.01.26-15.05.40:695][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.01.26-15.05.40:713][157]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialLevel'.
+[2025.01.26-15.05.40:713][157]LogChaosDD: Creating Chaos Debug Draw Scene for world TutorialLevel
+[2025.01.26-15.05.40:725][157]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.26-15.05.40:749][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.01.26-15.05.40:758][157]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.26-15.05.40:758][157]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.067ms to complete.
+[2025.01.26-15.05.44:500][362]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MarcContents/Levels/TutorialLevel.TutorialLevel:PersistentLevel.TutorialLevel
+[2025.01.26-15.05.44:500][362]LogChaosDD: Creating Chaos Debug Draw Scene for world World_19
+[2025.01.26-15.06.01:788][378]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-15.06.01:890][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.01.26-15.06.01:896][378]LogSavePackage: Moving output files for package: /Game/MarcContents/Levels/TutorialLevel
+[2025.01.26-15.06.01:896][378]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/TutorialLevel38F5822B4C56A4D76F6496927238D508.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/TutorialLevel.umap'
+[2025.01.26-15.06.01:907][378]LogFileHelpers: Saving map 'TutorialLevel' took 0.082
+[2025.01.26-15.06.01:915][378]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.903 ms (total: 880.601 ms)
+[2025.01.26-15.06.01:951][378]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-15.06.01:951][378]LogContentValidation: Enabled validators:
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-15.06.01:951][378]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-15.06.01:951][378]AssetCheck: /Game/MarcContents/Levels/TutorialLevel Validating asset
+[2025.01.26-15.06.03:159][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.01.26-15.06.12:465][  3]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.01.26-15.06.12:492][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.01.26-15.06.27:480][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.26-15.06.27:482][250]LogStreaming: Display: FlushAsyncLoading(567): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-15.06.27:499][250]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-15.06.27:500][250]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel
+[2025.01.26-15.06.27:500][250]Cmd: MAP LOAD FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.26-15.06.27:542][250]LogSlate: Window 'TutorialLevel' being destroyed
+[2025.01.26-15.06.27:556][250]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.06.27:556][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.06.27:586][250]LogWorld: UWorld::CleanupWorld for TutorialLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.06.27:586][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.06.27:604][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-15.06.27:607][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.01.26-15.06.27:612][250]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.06.27:612][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.06.27:635][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.01.26-15.06.27:697][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.01.26-15.06.27:718][250]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2025.01.26-15.06.27:718][250]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-15.06.27:729][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.26-15.06.27:751][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.01.26-15.06.27:761][250]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.26-15.06.27:761][250]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.057ms to complete.
+[2025.01.26-15.06.27:800][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.01.26-15.06.29:023][302]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.01.26-15.06.29:048][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.01.26-15.06.54:320][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.26-15.06.54:322][775]LogStreaming: Display: FlushAsyncLoading(569): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-15.06.54:342][775]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.26-15.06.54:344][775]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MarcContents/Levels/PlayLevel.PlayLevel
+[2025.01.26-15.06.54:344][775]Cmd: MAP LOAD FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Levels/PlayLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.26-15.06.54:388][775]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.06.54:389][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.06.54:409][775]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-15.06.54:412][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.26-15.06.54:414][775]LogWorld: UWorld::CleanupWorld for PlayLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.06.54:414][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.06.54:436][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.01.26-15.06.54:489][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.26-15.06.54:511][775]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlayLevel'.
+[2025.01.26-15.06.54:511][775]LogChaosDD: Creating Chaos Debug Draw Scene for world PlayLevel
+[2025.01.26-15.06.54:524][775]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.26-15.06.54:547][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.01.26-15.06.54:556][775]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.26-15.06.54:556][775]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.058ms to complete.
+[2025.01.26-15.06.58:401][982]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MarcContents/Levels/PlayLevel.PlayLevel:PersistentLevel.PlayLevel
+[2025.01.26-15.06.58:402][982]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2025.01.26-15.07.18:626][650]LogSlate: Window 'PlayLevel' being destroyed
+[2025.01.26-15.07.18:631][650]LogSlate: Window 'PlayLevel' being destroyed
+[2025.01.26-15.07.18:636][650]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-15.07.18:636][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-15.07.18:713][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
