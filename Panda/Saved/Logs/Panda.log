@@ -1744,3 +1744,763 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2025.01.26-12.27.01:790][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2025.01.26-12.27.01:833][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
 [2025.01.26-12.27.01:845][544]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.01.26-12.29.24:693][776]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 687.390198
+[2025.01.26-12.29.25:692][779]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.29.25:692][779]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 688.055542, Update Interval: 311.063568
+[2025.01.26-12.29.54:602][918]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-12.29.54:618][918]LogInterchangeEngine: [Pending] Importing
+[2025.01.26-12.29.54:618][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.17.png]
+[2025.01.26-12.29.54:619][918]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.01.26-12.29.54:619][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.16.png]
+[2025.01.26-12.29.54:620][918]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.01.26-12.29.54:620][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.15.png]
+[2025.01.26-12.29.54:620][918]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.01.26-12.29.54:620][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.14.png]
+[2025.01.26-12.29.54:621][918]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.01.26-12.29.54:621][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.13.png]
+[2025.01.26-12.29.54:621][918]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.01.26-12.29.54:621][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.12.png]
+[2025.01.26-12.29.54:622][918]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.01.26-12.29.54:622][918]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Anzeige_Gelb_1.1.png]
+[2025.01.26-12.29.54:698][920]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:701][921]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_17.Anzeige_Gelb_1_17 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_13.Anzeige_Gelb_1_13 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_16.Anzeige_Gelb_1_16 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_1.Anzeige_Gelb_1_1 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_12.Anzeige_Gelb_1_12 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_15.Anzeige_Gelb_1_15 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:740][922]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_14.Anzeige_Gelb_1_14 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.29.54:833][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.17.png]
+[2025.01.26-12.29.54:833][923]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.01.26-12.29.54:833][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.13.png]
+[2025.01.26-12.29.54:833][923]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.16.png]
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.12.png]
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.15.png]
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.1.png]
+[2025.01.26-12.29.54:834][923]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.01.26-12.29.54:836][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Anzeige_Gelb_1.14.png]
+[2025.01.26-12.29.54:874][923]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.26-12.29.54:874][923]LogInterchangeEngine: [Success] Import Done
+[2025.01.26-12.31.09:051][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.26-12.31.09:057][288]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.045
+[2025.01.26-12.31.09:058][288]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.31.09:062][288]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.31.09:062][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.31.09:062][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:117][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MarcContents/UI/BP_UI_Auto1
+[2025.01.26-12.31.09:118][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_Auto154489D5A401620AB1D7277B122B3B0A0.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto1.uasset'
+[2025.01.26-12.31.09:119][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_13] ([1] browsable assets)...
+[2025.01.26-12.31.09:121][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_13.Anzeige_Gelb_1_13]
+[2025.01.26-12.31.09:121][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_13]
+[2025.01.26-12.31.09:121][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_13" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_13_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:122][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_13_Auto1
+[2025.01.26-12.31.09:122][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_13_Auto12D32027F4A378B11B9744E88ABA52786.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_13_Auto1.uasset'
+[2025.01.26-12.31.09:123][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_17] ([1] browsable assets)...
+[2025.01.26-12.31.09:125][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_17.Anzeige_Gelb_1_17]
+[2025.01.26-12.31.09:125][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_17]
+[2025.01.26-12.31.09:125][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_17" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_17_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:126][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_17_Auto1
+[2025.01.26-12.31.09:126][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_17_Auto1BF66815948B9E23F4149E585C4312CE7.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_17_Auto1.uasset'
+[2025.01.26-12.31.09:128][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_16] ([1] browsable assets)...
+[2025.01.26-12.31.09:129][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_16.Anzeige_Gelb_1_16]
+[2025.01.26-12.31.09:129][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_16]
+[2025.01.26-12.31.09:129][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_16" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_16_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:130][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_16_Auto1
+[2025.01.26-12.31.09:130][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_16_Auto1D433567A4FFC84B878E2F1A268BE67FD.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_16_Auto1.uasset'
+[2025.01.26-12.31.09:131][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_14] ([1] browsable assets)...
+[2025.01.26-12.31.09:137][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_14.Anzeige_Gelb_1_14]
+[2025.01.26-12.31.09:137][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_14]
+[2025.01.26-12.31.09:137][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_14" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_14_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:138][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_14_Auto1
+[2025.01.26-12.31.09:138][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_14_Auto171871DEE42956743E6FA1FA0C1D040AD.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_14_Auto1.uasset'
+[2025.01.26-12.31.09:139][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_12] ([1] browsable assets)...
+[2025.01.26-12.31.09:141][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_12.Anzeige_Gelb_1_12]
+[2025.01.26-12.31.09:141][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_12]
+[2025.01.26-12.31.09:141][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_12" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_12_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:142][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_12_Auto1
+[2025.01.26-12.31.09:142][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_12_Auto1D08332E74C8BA483096D2D803C033F0E.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_12_Auto1.uasset'
+[2025.01.26-12.31.09:143][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_15] ([1] browsable assets)...
+[2025.01.26-12.31.09:145][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_15.Anzeige_Gelb_1_15]
+[2025.01.26-12.31.09:145][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_15]
+[2025.01.26-12.31.09:145][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_15" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_15_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:146][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_15_Auto1
+[2025.01.26-12.31.09:146][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_15_Auto1E946AFD14966C9C63039F49B56CB4A91.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_15_Auto1.uasset'
+[2025.01.26-12.31.09:147][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_1] ([1] browsable assets)...
+[2025.01.26-12.31.09:148][288]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_1.Anzeige_Gelb_1_1]
+[2025.01.26-12.31.09:148][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_1]
+[2025.01.26-12.31.09:148][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.31.09:150][288]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto1
+[2025.01.26-12.31.09:150][288]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_1_Auto12D0472734E329DBA264F51820DFA0CBE.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto1.uasset'
+[2025.01.26-12.31.09:151][288]LogFileHelpers: Auto-saving content packages took 0.094
+[2025.01.26-12.31.51:636][366]LogEditorTransaction: Undo Edit X
+[2025.01.26-12.32.55:902][176]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art/Anzeige_Gelb_1_17.Anzeige_Gelb_1_17
+[2025.01.26-12.32.57:716][262]LogSlate: Window 'Anzeige_Gelb_1_17' being destroyed
+[2025.01.26-12.32.57:721][262]LogSlate: Window 'Anzeige_Gelb_1_17' being destroyed
+[2025.01.26-12.34.40:478][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1003.174011
+[2025.01.26-12.34.40:628][793]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.34.40:628][793]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1003.307434, Update Interval: 326.397278
+[2025.01.26-12.36.23:239][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.01.26-12.36.29:369][336]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.26-12.36.29:722][336]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-12.36.29:722][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-12.36.29:730][336]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-12.36.29:730][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-12.36.29:780][336]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-12.36.29:780][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-12.36.29:852][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.01.26-12.36.29:852][336]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-12.36.29:852][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-12.36.29:890][336]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Art/Anzeige_Gelb_1_17.Anzeige_Gelb_1_17
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_16.Anzeige_Gelb_1_16
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_15.Anzeige_Gelb_1_15
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_14.Anzeige_Gelb_1_14
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_13.Anzeige_Gelb_1_13
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_12.Anzeige_Gelb_1_12
+	Asset Type: Texture2D
+	Asset Name: /Game/Art/Anzeige_Gelb_1_1.Anzeige_Gelb_1_1
+	Asset Type: Texture2D
+[2025.01.26-12.36.30:297][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.01.26-12.36.30:340][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.01.26-12.36.30:362][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.01.26-12.36.30:390][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.01.26-12.36.41:654][997]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI
+[2025.01.26-12.36.41:654][997]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2025.01.26-12.36.41:661][997]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.01.26-12.37.16:949][793]LogStreaming: Display: FlushAsyncLoading(566): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-12.37.16:964][793]LogInterchangeEngine: [Pending] Importing
+[2025.01.26-12.37.16:964][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige(ohneBalken).png]
+[2025.01.26-12.37.16:966][793]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.01.26-12.37.16:966][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Gelb_1.1.png]
+[2025.01.26-12.37.16:967][793]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.01.26-12.37.16:967][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Gelb_1.2.png]
+[2025.01.26-12.37.16:967][793]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.01.26-12.37.16:967][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Gru╠ên_1.png]
+[2025.01.26-12.37.16:968][793]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.01.26-12.37.16:968][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Orange_1.1.png]
+[2025.01.26-12.37.16:968][793]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.01.26-12.37.16:968][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Orange_1.2.png]
+[2025.01.26-12.37.16:969][793]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.01.26-12.37.16:969][793]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Rot_1.1.png]
+[2025.01.26-12.37.16:970][793]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.01.26-12.37.16:970][793]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.01.26-12.37.17:642][795]LogStreaming: Display: FlushAsyncLoading(575): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:655][796]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.17:956][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_ohneBalken_.Anzeige_ohneBalken_ (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.17:956][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gru╠ên_1.Anzeige_Gru╠ên_1 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.17:958][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_Orange_1_1.Anzeige_Orange_1_1 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.17:958][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_Rot_1_1.Anzeige_Rot_1_1 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.17:959][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_Gelb_1_2.Anzeige_Gelb_1_2 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.17:960][796]LogTexture: Display: Building textures: /Game/Art/Anzeige_Orange_1_2.Anzeige_Orange_1_2 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.18:312][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Gru╠ên_1.png]
+[2025.01.26-12.37.18:312][797]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.01.26-12.37.18:312][797]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.01.26-12.37.18:312][797]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Anzeige_Rot_1.2.png]
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Gelb_1.1.png]
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/riewe/Downloads/Balken/Balken.png]
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige(ohneBalken).png]
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.01.26-12.37.18:313][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Orange_1.1.png]
+[2025.01.26-12.37.18:314][797]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.01.26-12.37.18:314][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Rot_1.1.png]
+[2025.01.26-12.37.18:314][797]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.01.26-12.37.18:314][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Gelb_1.2.png]
+[2025.01.26-12.37.18:314][797]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.01.26-12.37.18:315][797]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Orange_1.2.png]
+[2025.01.26-12.37.18:315][797]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.01.26-12.37.18:654][800]LogStreaming: Display: FlushAsyncLoading(582): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.26-12.37.18:662][801]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.18:662][801]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.26-12.37.18:672][801]LogTexture: Display: Building textures: /Game/Art/Anzeige_Rot_1_2.Anzeige_Rot_1_2 (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.18:672][802]LogTexture: Display: Building textures: /Game/Art/Balken.Balken (BGRA8, 18x65 x1x1x1) (Required Memory Estimate: 1.040169 MB), EncodeSpeed: Fast
+[2025.01.26-12.37.18:690][802]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Anzeige_Rot_1.2.png]
+[2025.01.26-12.37.18:690][802]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.01.26-12.37.18:690][802]LogInterchangeEngine: Display: Interchange import completed [C:/Users/riewe/Downloads/Balken/Balken.png]
+[2025.01.26-12.37.18:751][802]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.26-12.37.18:751][802]LogInterchangeEngine: [Success] Import Done
+[2025.01.26-12.40.16:937][344]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1339.636841
+[2025.01.26-12.40.17:105][354]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.40.17:105][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1339.787231, Update Interval: 303.869141
+[2025.01.26-12.41.58:909][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.01.26-12.41.58:917][177]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.051
+[2025.01.26-12.41.58:918][177]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.41.58:921][177]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.41.58:921][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.41.58:921][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.58:977][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MarcContents/UI/BP_UI_Auto2
+[2025.01.26-12.41.58:978][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_Auto20872531C43ABBE9FD9B258952AFCB097.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto2.uasset'
+[2025.01.26-12.41.58:979][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gru╠ên_1] ([1] browsable assets)...
+[2025.01.26-12.41.58:981][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gru╠ên_1.Anzeige_Gru╠ên_1]
+[2025.01.26-12.41.58:981][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gru╠ên_1]
+[2025.01.26-12.41.58:981][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gru╠ên_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gru╠ên_1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.58:982][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gru╠ên_1_Auto2
+[2025.01.26-12.41.58:982][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gru╠ên_1_Auto20EAFAFA84EA95DA95DB598AEF53BE58A.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gru╠ên_1_Auto2.uasset'
+[2025.01.26-12.41.58:983][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_ohneBalken_] ([1] browsable assets)...
+[2025.01.26-12.41.58:988][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_ohneBalken_.Anzeige_ohneBalken_]
+[2025.01.26-12.41.58:988][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_ohneBalken_]
+[2025.01.26-12.41.58:988][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_ohneBalken_" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_ohneBalken__Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.58:990][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_ohneBalken__Auto2
+[2025.01.26-12.41.58:990][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_ohneBalken__Auto29A8DB4EA43FB50EA8830C79E21B03ABA.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_ohneBalken__Auto2.uasset'
+[2025.01.26-12.41.58:990][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_1] ([1] browsable assets)...
+[2025.01.26-12.41.58:993][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_1.Anzeige_Gelb_1_1]
+[2025.01.26-12.41.58:993][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_1]
+[2025.01.26-12.41.58:993][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.58:994][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto2
+[2025.01.26-12.41.58:994][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_1_Auto20655E8B9407EDC000AE0AA9D6BB2104F.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_1_Auto2.uasset'
+[2025.01.26-12.41.58:995][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Orange_1_1] ([1] browsable assets)...
+[2025.01.26-12.41.58:998][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Orange_1_1.Anzeige_Orange_1_1]
+[2025.01.26-12.41.58:998][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Orange_1_1]
+[2025.01.26-12.41.58:998][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Orange_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Orange_1_1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.58:999][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Orange_1_1_Auto2
+[2025.01.26-12.41.58:999][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Orange_1_1_Auto2362636274726CB5AF41147907ACCB8BB.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Orange_1_1_Auto2.uasset'
+[2025.01.26-12.41.59:000][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Rot_1_1] ([1] browsable assets)...
+[2025.01.26-12.41.59:002][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Rot_1_1.Anzeige_Rot_1_1]
+[2025.01.26-12.41.59:002][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Rot_1_1]
+[2025.01.26-12.41.59:002][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Rot_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Rot_1_1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.59:003][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Rot_1_1_Auto2
+[2025.01.26-12.41.59:003][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Rot_1_1_Auto246BAA2AA4C2BB0E77B48549B5E708DFA.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Rot_1_1_Auto2.uasset'
+[2025.01.26-12.41.59:004][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Orange_1_2] ([1] browsable assets)...
+[2025.01.26-12.41.59:006][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Orange_1_2.Anzeige_Orange_1_2]
+[2025.01.26-12.41.59:006][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Orange_1_2]
+[2025.01.26-12.41.59:006][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Orange_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Orange_1_2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.59:008][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Orange_1_2_Auto2
+[2025.01.26-12.41.59:008][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Orange_1_2_Auto2FEE0F7D747958163BAAAEFB221E75912.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Orange_1_2_Auto2.uasset'
+[2025.01.26-12.41.59:009][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Gelb_1_2] ([1] browsable assets)...
+[2025.01.26-12.41.59:010][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Gelb_1_2.Anzeige_Gelb_1_2]
+[2025.01.26-12.41.59:010][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_2]
+[2025.01.26-12.41.59:010][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.59:011][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Gelb_1_2_Auto2
+[2025.01.26-12.41.59:011][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_2_Auto271CFF0FF4D617C868AA725AD35905CDF.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Gelb_1_2_Auto2.uasset'
+[2025.01.26-12.41.59:012][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Anzeige_Rot_1_2] ([1] browsable assets)...
+[2025.01.26-12.41.59:017][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Anzeige_Rot_1_2.Anzeige_Rot_1_2]
+[2025.01.26-12.41.59:018][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Rot_1_2]
+[2025.01.26-12.41.59:018][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Rot_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Rot_1_2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.59:019][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Anzeige_Rot_1_2_Auto2
+[2025.01.26-12.41.59:019][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Rot_1_2_Auto28521EFE049C8446C60CD5EBB2C1AE454.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Anzeige_Rot_1_2_Auto2.uasset'
+[2025.01.26-12.41.59:020][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Balken] ([1] browsable assets)...
+[2025.01.26-12.41.59:021][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Balken.Balken]
+[2025.01.26-12.41.59:021][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Balken]
+[2025.01.26-12.41.59:021][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Balken" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Balken_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.41.59:022][177]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Art/Balken_Auto2
+[2025.01.26-12.41.59:023][177]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Balken_Auto26801A16B4B8D2BF453C6BCA66413D171.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/Art/Balken_Auto2.uasset'
+[2025.01.26-12.41.59:023][177]LogFileHelpers: Auto-saving content packages took 0.106
+[2025.01.26-12.44.33:582][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.44.33:622][334]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.44.33:626][334]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.44.33:626][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.44.33:626][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-12.44.33:681][334]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-12.44.33:682][334]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI94BFE7A54FB9F614FF02EB9092703D6B.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-12.44.33:691][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.574 ms (total: 847.626 ms)
+[2025.01.26-12.44.33:717][334]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.44.33:717][334]LogContentValidation: Enabled validators:
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.44.33:717][334]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.44.33:719][334]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-12.45.13:865][620]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.01.26-12.45.39:472][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.45.39:512][ 87]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.45.39:516][ 87]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.45.39:516][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.45.39:516][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-12.45.39:573][ 87]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-12.45.39:573][ 87]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI66BB831F44690E28545918A7429372D7.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-12.45.39:584][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.868 ms (total: 960.494 ms)
+[2025.01.26-12.45.39:619][ 87]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.45.39:619][ 87]LogContentValidation: Enabled validators:
+[2025.01.26-12.45.39:619][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.45.39:619][ 87]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.45.39:619][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.45.39:620][ 87]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.45.39:620][ 87]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.45.39:620][ 87]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.45.39:621][ 87]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-12.45.40:425][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.01.26-12.45.51:975][755]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1674.678223
+[2025.01.26-12.45.52:142][765]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.45.52:142][765]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1674.828735, Update Interval: 351.569580
+[2025.01.26-12.49.48:734][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.49.48:765][585]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.49.48:770][585]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.49.48:770][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.49.48:770][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-12.49.48:828][585]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-12.49.48:829][585]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI2F9349E144E6E6DCEB63B8B066B7A4FA.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-12.49.48:839][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.385 ms (total: 1.06 sec)
+[2025.01.26-12.49.48:877][585]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.49.48:877][585]LogContentValidation: Enabled validators:
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.49.48:877][585]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.49.48:878][585]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-12.49.51:069][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.26-12.52.30:056][ 87]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2072.763672
+[2025.01.26-12.52.30:217][ 97]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.52.30:217][ 97]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2072.907715, Update Interval: 352.009033
+[2025.01.26-12.53.42:151][327]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.53.42:186][327]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.53.42:192][327]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.53.42:192][327]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.53.42:192][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-12.53.42:250][327]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-12.53.42:251][327]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI6A7DDAE243347A30D7015CAD97F2D231.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-12.53.42:261][327]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.922 ms (total: 1.17 sec)
+[2025.01.26-12.53.42:296][327]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.53.42:296][327]LogContentValidation: Enabled validators:
+[2025.01.26-12.53.42:296][327]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.53.42:296][327]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.53.42:296][327]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.53.42:296][327]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.53.42:296][327]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.53.42:297][327]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.53.42:298][327]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-12.57.14:191][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.01.26-12.57.14:198][839]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.067
+[2025.01.26-12.57.14:198][839]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.57.14:203][839]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.57.14:203][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.57.14:203][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-12.57.14:261][839]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MarcContents/UI/BP_UI_Auto3
+[2025.01.26-12.57.14:261][839]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_Auto38C43648F4B0A659B656A44832254750F.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto3.uasset'
+[2025.01.26-12.57.14:262][839]LogFileHelpers: Auto-saving content packages took 0.064
+[2025.01.26-12.57.35:675][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.57.35:712][104]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-12.57.35:717][104]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-12.57.35:717][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-12.57.35:717][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-12.57.35:777][104]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-12.57.35:777][104]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UIDC196B74432921B36BDC36B0444EDB57.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-12.57.35:788][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.774 ms (total: 1.28 sec)
+[2025.01.26-12.57.35:822][104]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.57.35:822][104]LogContentValidation: Enabled validators:
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.57.35:822][104]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.57.35:824][104]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-12.57.36:744][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.01.26-12.58.56:126][821]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2458.840820
+[2025.01.26-12.58.57:126][824]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-12.58.57:126][824]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2459.507812, Update Interval: 310.347595
+[2025.01.26-12.59.42:269][588]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MarcContents/Blueprints/BP_GameManager.BP_GameManager
+[2025.01.26-12.59.42:269][588]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2025.01.26-12.59.53:488][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-12.59.53:514][237]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MarcContents/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.26-12.59.53:514][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/Blueprints/BP_GameManager]
+[2025.01.26-12.59.53:514][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/Blueprints/BP_GameManager" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.26-12.59.53:567][237]LogSavePackage: Moving output files for package: /Game/MarcContents/Blueprints/BP_GameManager
+[2025.01.26-12.59.53:567][237]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_GameManager7A095AFE4524A99F38DE03B036536AF9.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/Blueprints/BP_GameManager.uasset'
+[2025.01.26-12.59.53:578][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.645 ms (total: 1.37 sec)
+[2025.01.26-12.59.53:614][237]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-12.59.53:614][237]LogContentValidation: Enabled validators:
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-12.59.53:614][237]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-12.59.53:614][237]AssetCheck: /Game/MarcContents/Blueprints/BP_GameManager Validating asset
+[2025.01.26-12.59.54:576][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.01.26-13.04.44:715][446]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2807.436523
+[2025.01.26-13.04.45:717][449]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.04.45:717][449]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2808.104248, Update Interval: 310.649750
+[2025.01.26-13.07.14:801][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.01.26-13.07.14:803][896]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MarcContents/Levels/MainMenuLevel' took 0.030
+[2025.01.26-13.07.14:804][896]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-13.07.14:808][896]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-13.07.14:808][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-13.07.14:808][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.01.26-13.07.14:876][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MarcContents/UI/BP_UI_Auto4
+[2025.01.26-13.07.14:877][896]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI_Auto406A5B21741F4CBE57685A7AA14C69092.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Saved/Autosaves/Game/MarcContents/UI/BP_UI_Auto4.uasset'
+[2025.01.26-13.07.14:878][896]LogFileHelpers: Auto-saving content packages took 0.075
+[2025.01.26-13.10.50:891][754]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3173.602783
+[2025.01.26-13.10.51:042][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.10.51:042][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3173.736816, Update Interval: 323.390594
+[2025.01.26-13.17.05:322][357]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3548.062988
+[2025.01.26-13.17.05:492][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.17.05:492][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3548.221680, Update Interval: 342.793060
+[2025.01.26-13.19.50:292][821]LogDerivedDataCache: C:/Users/riewe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.26-13.19.55:131][106]LogEditorTransaction: Undo Resize Node
+[2025.01.26-13.21.16:308][850]LogEditorTransaction: Undo Create Pin Link
+[2025.01.26-13.21.17:158][874]LogEditorTransaction: Undo Resize Node
+[2025.01.26-13.21.17:889][897]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.18:576][917]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.19:213][934]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.19:690][942]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.20:040][943]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.20:390][944]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.20:772][945]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.21:161][947]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.21:764][962]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.22:329][975]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.22:946][991]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.23:568][  7]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.24:197][ 24]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.24:873][ 37]LogEditorTransaction: Undo Nudge Node
+[2025.01.26-13.21.25:503][ 54]LogEditorTransaction: Undo Move Nodes
+[2025.01.26-13.21.26:423][ 85]LogEditorTransaction: Undo Paste clipboard contents
+[2025.01.26-13.23.24:155][911]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3926.897461
+[2025.01.26-13.23.24:306][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.23.24:306][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3927.036133, Update Interval: 331.482300
+[2025.01.26-13.25.19:110][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.25.19:142][487]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-13.25.19:146][487]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-13.25.19:147][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-13.25.19:147][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-13.25.19:223][487]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-13.25.19:224][487]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI03E5C6254315270D1AD92BB8B4DA05D7.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-13.25.19:235][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.159 ms (total: 1.50 sec)
+[2025.01.26-13.25.19:263][487]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.25.19:263][487]LogContentValidation: Enabled validators:
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.25.19:263][487]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.25.19:264][487]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-13.25.20:250][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.01.26-13.25.24:943][784]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.25.24:950][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.25.24:951][784]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.25.24:952][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001030s)
+[2025.01.26-13.25.24:952][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001063s)
+[2025.01.26-13.25.25:006][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.01.26-13.25.25:017][784]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.25.25:019][784]LogPlayLevel: PIE: World Init took: (0.001577s)
+[2025.01.26-13.25.25:020][784]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.25.25:020][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.25.25:020][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.25.25:020][784]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.25.25:020][784]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.25.25:020][784]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.25.25:022][784]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.25.25:075][784]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.25.25:076][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.25.25:076][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.25.25:076][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.25.25:076][784]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.01.26-13.25.25:076][784]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.01.26-13.25.25:079][784]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.01.26-13.25.25:079][784]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.01.26-13.25.25:079][784]LogInit: FAudioDevice initialized with ID 7.
+[2025.01.26-13.25.25:079][784]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMenuLevel'.
+[2025.01.26-13.25.25:080][784]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.01.26-13.25.25:083][784]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.25.25:084][784]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.25.25
+[2025.01.26-13.25.25:084][784]LogWorld: Bringing up level for play took: 0.000412
+[2025.01.26-13.25.25:087][784]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.01.26-13.25.25:090][784]PIE: Server logged in
+[2025.01.26-13.25.25:091][784]PIE: Play in editor total start time 0.141 seconds.
+[2025.01.26-13.25.25:093][784]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.25.26:089][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.25.26:234][845]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.26.23:430][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.26.23:430][254]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.26.23:430][254]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.26.23:430][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.26.23:433][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.26.23:440][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.26.23:502][254]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.26-13.26.23:502][254]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.01.26-13.26.23:503][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.01.26-13.26.23:505][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.01.26-13.26.23:508][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.26.23:531][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.26-13.26.23:565][255]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.01.26-13.26.23:610][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.01.26-13.26.25:269][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.01.26-13.26.28:242][350]LogSlate: Window 'Save Content' being destroyed
+[2025.01.26-13.26.28:323][350]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.26.28:363][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Gelb_1_1] ([1] browsable assets)...
+[2025.01.26-13.26.28:363][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_1]
+[2025.01.26-13.26.28:363][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gelb_1_1.uasset" SILENT=true
+[2025.01.26-13.26.28:364][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Gelb_1_1
+[2025.01.26-13.26.28:364][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_10D995D1243CEB6B09DE0FEAEDD971998.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gelb_1_1.uasset'
+[2025.01.26-13.26.28:368][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Gelb_1_2] ([1] browsable assets)...
+[2025.01.26-13.26.28:368][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gelb_1_2]
+[2025.01.26-13.26.28:368][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gelb_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gelb_1_2.uasset" SILENT=true
+[2025.01.26-13.26.28:370][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Gelb_1_2
+[2025.01.26-13.26.28:370][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gelb_1_2A150705F41D331EAFAB84C9D782652D5.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gelb_1_2.uasset'
+[2025.01.26-13.26.28:371][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Gru╠ên_1] ([1] browsable assets)...
+[2025.01.26-13.26.28:371][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Gru╠ên_1]
+[2025.01.26-13.26.28:371][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Gru╠ên_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gru╠ên_1.uasset" SILENT=true
+[2025.01.26-13.26.28:372][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Gru╠ên_1
+[2025.01.26-13.26.28:372][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Gru╠ên_191E9B3F3485307CA05E7EFB77420C293.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Gru╠ên_1.uasset'
+[2025.01.26-13.26.28:373][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_ohneBalken_] ([1] browsable assets)...
+[2025.01.26-13.26.28:373][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_ohneBalken_]
+[2025.01.26-13.26.28:373][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_ohneBalken_" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_ohneBalken_.uasset" SILENT=true
+[2025.01.26-13.26.28:375][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_ohneBalken_
+[2025.01.26-13.26.28:375][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_ohneBalken_9866D8D0453CE2BAB48F4B9954D18979.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_ohneBalken_.uasset'
+[2025.01.26-13.26.28:376][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Orange_1_1] ([1] browsable assets)...
+[2025.01.26-13.26.28:376][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Orange_1_1]
+[2025.01.26-13.26.28:376][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Orange_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Orange_1_1.uasset" SILENT=true
+[2025.01.26-13.26.28:378][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Orange_1_1
+[2025.01.26-13.26.28:378][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Orange_1_1EEF1D0BF4457445D94C335B0DFAC456A.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Orange_1_1.uasset'
+[2025.01.26-13.26.28:379][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Orange_1_2] ([1] browsable assets)...
+[2025.01.26-13.26.28:379][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Orange_1_2]
+[2025.01.26-13.26.28:379][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Orange_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Orange_1_2.uasset" SILENT=true
+[2025.01.26-13.26.28:381][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Orange_1_2
+[2025.01.26-13.26.28:381][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Orange_1_2FC426D984B5CDF813C57B3B8AFA10BCC.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Orange_1_2.uasset'
+[2025.01.26-13.26.28:382][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Rot_1_1] ([1] browsable assets)...
+[2025.01.26-13.26.28:382][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Rot_1_1]
+[2025.01.26-13.26.28:382][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Rot_1_1" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Rot_1_1.uasset" SILENT=true
+[2025.01.26-13.26.28:384][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Rot_1_1
+[2025.01.26-13.26.28:384][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Rot_1_138CFC2BE4667525DF53B62B5D908DAB8.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Rot_1_1.uasset'
+[2025.01.26-13.26.28:385][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Anzeige_Rot_1_2] ([1] browsable assets)...
+[2025.01.26-13.26.28:385][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Anzeige_Rot_1_2]
+[2025.01.26-13.26.28:385][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Anzeige_Rot_1_2" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Rot_1_2.uasset" SILENT=true
+[2025.01.26-13.26.28:387][350]LogSavePackage: Moving output files for package: /Game/Art/Anzeige_Rot_1_2
+[2025.01.26-13.26.28:387][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Anzeige_Rot_1_269EDBD054816094046E560BB6998A855.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Anzeige_Rot_1_2.uasset'
+[2025.01.26-13.26.28:388][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Balken] ([1] browsable assets)...
+[2025.01.26-13.26.28:388][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Balken]
+[2025.01.26-13.26.28:388][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Balken" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/Art/Balken.uasset" SILENT=true
+[2025.01.26-13.26.28:389][350]LogSavePackage: Moving output files for package: /Game/Art/Balken
+[2025.01.26-13.26.28:389][350]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/Balken913E8AF849ABE910D67906B5EAEEB0DF.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/Art/Balken.uasset'
+[2025.01.26-13.26.28:398][350]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.756 ms (total: 1.57 sec)
+[2025.01.26-13.26.28:451][351]LogContentValidation: Display: Starting to validate 9 assets
+[2025.01.26-13.26.28:451][351]LogContentValidation: Enabled validators:
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.26.28:451][351]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.26.28:451][351]AssetCheck: /Game/Art/Anzeige_Gelb_1_1 Validating asset
+[2025.01.26-13.26.28:451][351]AssetCheck: /Game/Art/Anzeige_Gelb_1_2 Validating asset
+[2025.01.26-13.26.28:451][351]AssetCheck: /Game/Art/Anzeige_Gru╠ên_1 Validating asset
+[2025.01.26-13.26.28:451][351]AssetCheck: /Game/Art/Anzeige_ohneBalken_ Validating asset
+[2025.01.26-13.26.28:451][351]AssetCheck: /Game/Art/Anzeige_Orange_1_1 Validating asset
+[2025.01.26-13.26.28:452][351]AssetCheck: /Game/Art/Anzeige_Orange_1_2 Validating asset
+[2025.01.26-13.26.28:452][351]AssetCheck: /Game/Art/Anzeige_Rot_1_1 Validating asset
+[2025.01.26-13.26.28:452][351]AssetCheck: /Game/Art/Anzeige_Rot_1_2 Validating asset
+[2025.01.26-13.26.28:452][351]AssetCheck: /Game/Art/Balken Validating asset
+[2025.01.26-13.27.24:577][655]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.01.26-13.27.24:647][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2025.01.26-13.28.06:657][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.26-13.28.06:657][947]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.28.06:658][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001017s)
+[2025.01.26-13.28.06:658][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001051s)
+[2025.01.26-13.28.06:717][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.26-13.28.06:719][947]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.28.06:720][947]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2025.01.26-13.28.06:721][947]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.28.06:721][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.28.06:721][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.28.06:721][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.28.06:721][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.28.06:721][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.28.06:723][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.28.06:775][947]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.28.06:776][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.28.06:776][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.28.06:776][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.28.06:776][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.01.26-13.28.06:776][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.01.26-13.28.06:779][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.01.26-13.28.06:779][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.01.26-13.28.06:779][947]LogInit: FAudioDevice initialized with ID 8.
+[2025.01.26-13.28.06:779][947]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenuLevel'.
+[2025.01.26-13.28.06:779][947]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.01.26-13.28.06:783][947]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.28.06:783][947]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.28.06
+[2025.01.26-13.28.06:784][947]LogWorld: Bringing up level for play took: 0.000474
+[2025.01.26-13.28.06:786][947]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.01.26-13.28.06:789][947]PIE: Server logged in
+[2025.01.26-13.28.06:791][947]PIE: Play in editor total start time 0.134 seconds.
+[2025.01.26-13.28.06:793][947]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.28.07:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.28.07:802][  0]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.28.07:802][  0]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.28.07:802][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.28.07:805][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.28.07:810][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.28.07:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.28.07:880][  0]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.01.26-13.28.07:880][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.01.26-13.28.07:883][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.01.26-13.28.07:892][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.01.26-13.28.07:912][  1]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.01.26-13.29.28:287][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4291.004883
+[2025.01.26-13.29.28:470][834]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.26-13.29.28:470][835]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4291.170898, Update Interval: 320.777618
+[2025.01.26-13.31.04:746][936]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.31.04:758][936]LogPlayLevel: [PlayLevel] Compiling BP_UI before play...
+[2025.01.26-13.31.05:028][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.26-13.31.05:034][936]LogPlayLevel: PlayLevel: Blueprint regeneration took 280 ms (1 blueprints)
+[2025.01.26-13.31.05:034][936]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.31.05:035][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
+[2025.01.26-13.31.05:035][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001105s)
+[2025.01.26-13.31.05:092][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.26-13.31.05:094][936]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.31.05:096][936]LogPlayLevel: PIE: World Init took: (0.001704s)
+[2025.01.26-13.31.05:096][936]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.01.26-13.31.05:096][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.31.05:096][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.31.05:096][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.31.05:097][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.31.05:097][936]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.31.05:097][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.31.05:097][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.31.05:097][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.31.05:097][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.31.05:097][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.31.05:097][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.31.05:101][936]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.31.05:158][936]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.31.05:159][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.31.05:159][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.31.05:159][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.31.05:160][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.01.26-13.31.05:160][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.01.26-13.31.05:162][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.01.26-13.31.05:162][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.01.26-13.31.05:162][936]LogInit: FAudioDevice initialized with ID 9.
+[2025.01.26-13.31.05:162][936]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainMenuLevel'.
+[2025.01.26-13.31.05:162][936]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.01.26-13.31.05:195][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.31.05:195][936]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.31.05:196][936]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.31.05
+[2025.01.26-13.31.05:196][936]LogWorld: Bringing up level for play took: 0.000553
+[2025.01.26-13.31.05:199][936]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.01.26-13.31.05:199][936]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.31.05:203][936]PIE: Server logged in
+[2025.01.26-13.31.05:205][936]PIE: Play in editor total start time 0.451 seconds.
+[2025.01.26-13.31.05:207][936]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.31.06:630][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.31.06:771][  8]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.31.08:746][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.31.08:746][125]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.31.08:746][125]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.31.08:753][125]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.31.08:753][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.31.08:756][125]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.31.08:762][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.31.08:832][125]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.01.26-13.31.08:832][125]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.01.26-13.31.08:834][125]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.01.26-13.31.08:843][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.01.26-13.31.08:876][126]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.01.26-13.31.08:929][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.01.26-13.31.26:032][146]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.26-13.31.32:777][541]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.26-13.31.36:649][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.26-13.31.36:688][773]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MarcContents/UI/BP_UI] ([2] browsable assets)...
+[2025.01.26-13.31.36:692][773]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MarcContents/UI/BP_UI.BP_UI]
+[2025.01.26-13.31.36:692][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/MarcContents/UI/BP_UI]
+[2025.01.26-13.31.36:692][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MarcContents/UI/BP_UI" FILE="../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset" SILENT=true
+[2025.01.26-13.31.36:770][773]LogSavePackage: Moving output files for package: /Game/MarcContents/UI/BP_UI
+[2025.01.26-13.31.36:771][773]LogSavePackage: Moving '../../../../../Git Repos/GGJ2025/Panda/Saved/BP_UI240B6B914E333CF0E8321CACF3A4A9E7.tmp' to '../../../../../Git Repos/GGJ2025/Panda/Content/MarcContents/UI/BP_UI.uasset'
+[2025.01.26-13.31.36:781][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.870 ms (total: 1.70 sec)
+[2025.01.26-13.31.36:815][773]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.26-13.31.36:815][773]LogContentValidation: Enabled validators:
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.26-13.31.36:815][773]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.26-13.31.36:816][773]AssetCheck: /Game/MarcContents/UI/BP_UI Validating asset
+[2025.01.26-13.31.37:694][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.26-13.31.37:706][826]LogPlayLevel: [PlayLevel] Compiling BP_UI before play...
+[2025.01.26-13.31.37:890][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.26-13.31.37:898][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2025.01.26-13.31.37:898][826]LogPlayLevel: Creating play world package: /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.31.37:899][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001040s)
+[2025.01.26-13.31.37:899][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MarcContents/Levels/MainMenuLevel.MainMenuLevel to /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.001075s)
+[2025.01.26-13.31.37:954][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.26-13.31.37:956][826]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuLevel
+[2025.01.26-13.31.37:957][826]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2025.01.26-13.31.37:958][826]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.26-13.31.37:958][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.26-13.31.37:958][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.26-13.31.37:958][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.26-13.31.37:958][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.26-13.31.37:958][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.26-13.31.37:961][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.26-13.31.38:012][826]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Realtek(R) Audio)
+[2025.01.26-13.31.38:014][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.26-13.31.38:014][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.26-13.31.38:014][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.26-13.31.38:014][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.01.26-13.31.38:014][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.01.26-13.31.38:016][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.01.26-13.31.38:016][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.01.26-13.31.38:016][826]LogInit: FAudioDevice initialized with ID 10.
+[2025.01.26-13.31.38:016][826]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenuLevel'.
+[2025.01.26-13.31.38:016][826]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.01.26-13.31.38:048][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.31.38:048][826]LogLoad: Game class is 'BP_GameManager_C'
+[2025.01.26-13.31.38:048][826]LogWorld: Bringing World /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2025.01.26-14.31.38
+[2025.01.26-13.31.38:049][826]LogWorld: Bringing up level for play took: 0.000503
+[2025.01.26-13.31.38:051][826]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.01.26-13.31.38:051][826]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.01.26-13.31.38:055][826]PIE: Server logged in
+[2025.01.26-13.31.38:055][826]PIE: Play in editor total start time 0.354 seconds.
+[2025.01.26-13.31.38:057][826]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Chemical_Chaos'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.31.39:476][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.31.39:610][891]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'FormulaB'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.01.26-13.32.06:448][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.26-13.32.06:449][500]LogWorld: BeginTearingDown for /Game/MarcContents/Levels/UEDPIE_0_MainMenuLevel
+[2025.01.26-13.32.06:449][500]LogSlate: Window 'Panda Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.01.26-13.32.06:454][500]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.26-13.32.06:454][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.32.06:457][500]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.26-13.32.06:463][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.26-13.32.06:531][500]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.01.26-13.32.06:531][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.01.26-13.32.06:534][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.01.26-13.32.06:545][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.01.26-13.32.06:567][501]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.01.26-13.32.06:623][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
