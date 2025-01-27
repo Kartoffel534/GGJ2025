@@ -1539,3 +1539,1183 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.27-13.33.20:974][ 13]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave CompileFailed...
 [2025.01.27-13.33.20:978][ 14]LogAudioDerivedData: Display: CompileFailed compressed to 14.18% (from 87KB to 12KB) with BINKA at Quality 80 with Quality Modifier 1.00
 [2025.01.27-13.33.20:978][ 14]LogAudio: Display: Chunk stats for (SoundWave /Engine/EditorSounds/Notifications/CompileFailed.CompileFailed: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=12695 bytes, ChunkN=0)
+[2025.01.27-13.33.54:270][710]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""Y:/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject" Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=PETER-PC-W10 -utf8output -WaitForUATMutex  -EditorIO -EditorIOPort=53294  -project="C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject"" -nocompile -nocompileuat ]
+[2025.01.27-13.33.54:332][712]UATHelper: Verifying SDK and Device (Windows): Running AutomationTool...
+[2025.01.27-13.33.54:398][715]UATHelper: Verifying SDK and Device (Windows): Using bundled DotNet SDK version: 8.0.300
+[2025.01.27-13.33.54:508][719]UATHelper: Verifying SDK and Device (Windows): Starting AutomationTool...
+[2025.01.27-13.33.54:519][720]UATHelper: Verifying SDK and Device (Windows): Parsing command line: -ScriptsForProject=C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=PETER-PC-W10 -utf8output -WaitForUATMutex -EditorIO -EditorIOPort=53294 -project=C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject -nocompile -nocompileuat
+[2025.01.27-13.33.54:596][722]UATHelper: Verifying SDK and Device (Windows): Initializing script modules...
+[2025.01.27-13.33.54:861][739]UATHelper: Verifying SDK and Device (Windows): Total script module initialization time: 0.26 s.
+[2025.01.27-13.33.54:905][744]UATHelper: Verifying SDK and Device (Windows): Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2025.01.27-13.33.55:191][779]UATHelper: Verifying SDK and Device (Windows): Executing commands...
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): Installed Sdk validity:
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): Win64@Peter-PC-W10: (Name=Peter-PC-W10, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): Scanning for envvar changes...
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): ... done! 
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): Cleaning Temp Paths...
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): BUILD SUCCESSFUL
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): AutomationTool executed for 0h 0m 0s
+[2025.01.27-13.33.55:312][793]UATHelper: Verifying SDK and Device (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2025.01.27-13.33.55:345][797]LogStreaming: Display: FlushAsyncLoading(538): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.27-13.33.55:369][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.01.27-13.33.55:371][797]LogPlayLevel: Launcher Device ID: Windows@PETER-PC-W10
+[2025.01.27-13.33.55:372][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.27-13.33.55:372][797]LogLauncherProfile: Project does not require temp target
+[2025.01.27-13.33.55:388][797]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame-Win64-Shipping.target
+[2025.01.27-13.33.56:070][837]LogPlayLevel: UAT: Running AutomationTool...
+[2025.01.27-13.33.56:191][852]LogPlayLevel: UAT: Using bundled DotNet SDK version: 8.0.300
+[2025.01.27-13.33.56:213][854]LogPlayLevel: UAT: Starting AutomationTool...
+[2025.01.27-13.33.56:290][863]LogPlayLevel: UAT: Parsing command line: -ScriptsForProject=C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject BuildCookRun -project=C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Panda.uproject -noP4 -clientconfig=Shipping -serverconfig=Shipping -nocompile -nocompileeditor -installed -unrealexe="Y:\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -utf8output -platform=Win64 -cook -map=/Game/MarcContents/Levels/MainMenuLevel+/Game/MarcContents/Levels/MainMenuLevel -CookCultures=en -unversionedcookedcontent -stage -deploy -cmdline="/Game/MarcContents/Levels/MainMenuLevel -Messaging" -device=Windows@PETER-PC-W10 -addcmdline="-SessionId=BAE567B64AEDC3726A5F7A93C9FE42BE -SessionOwner='pfahr' -SessionName='Launch On Device'    " -run
+[2025.01.27-13.33.56:588][897]LogPlayLevel: UAT: Initializing script modules...
+[2025.01.27-13.33.56:643][904]LogPlayLevel: UAT: Total script module initialization time: 0.30 s.
+[2025.01.27-13.33.56:929][938]LogPlayLevel: UAT: Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2025.01.27-13.33.56:929][938]LogPlayLevel: UAT: Executing commands...
+[2025.01.27-13.33.57:292][981]LogPlayLevel: UAT: Setting up ProjectParams for C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Panda.uproject
+[2025.01.27-13.33.57:292][981]LogPlayLevel: UAT: ********** COOK COMMAND STARTED **********
+[2025.01.27-13.33.57:292][981]LogPlayLevel: UAT: HasMapsToCook /Game/MarcContents/Levels/MainMenuLevel+/Game/MarcContents/Levels/MainMenuLevel
+[2025.01.27-13.33.57:292][981]LogPlayLevel: UAT: Params.HasMapsToCook /Game/MarcContents/Levels/MainMenuLevel+/Game/MarcContents/Levels/MainMenuLevel
+[2025.01.27-13.33.57:292][981]LogPlayLevel: UAT: Running UnrealEditor Cook for project C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Panda.uproject
+[2025.01.27-13.33.57:314][983]LogPlayLevel: UAT: Commandlet log file is Y:\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.01.27-14.33.57.txt
+[2025.01.27-13.33.57:419][996]LogPlayLevel: Completed Launch On Stage: Launch Task, Time: 1.528348
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: Running: Y:\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Panda.uproject" -run=Cook -Map=/Game/MarcContents/Levels/MainMenuLevel+/Game/MarcContents/Levels/MainMenuLevel -CookCultures=en -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="Y:\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.01.27-14.33.57.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: Warning: UAT: LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": Falscher Parameter.
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogInit: Display: Running engine for game: Panda
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogTrace: Display: Display Control listening on port 34362
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-38445549"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : engineversion="5.5.1-38445549+++UE5+Release-5.5"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.5371] "
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 3700X 8-Core Processor"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.01.27-13.33.57:974][ 55]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Panda.uproject -run=Cook -Map=/Game/MarcContents/Levels/MainMenuLevel+/Game/MarcContents/Levels/MainMenuLevel -CookCultures=en -TargetPlatform=Windows -unversioned -fileopenlog -abslog="Y:\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.01.27-14.33.57.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : loginid="2b8244954063407fb10b088ecd5f765b"
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogAssetRegistry: Display: Asset registry cache read as 36.2 MiB from C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/CachedAssetRegistry_0.bin
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading VulkanPC ini files took 0.08 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading Mac ini files took 0.08 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading Android ini files took 0.08 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading IOS ini files took 0.08 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading TVOS ini files took 0.09 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading Unix ini files took 0.10 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading Windows ini files took 0.10 seconds
+[2025.01.27-13.33.58:337][ 95]LogPlayLevel: UAT: LogConfig: Display: Loading VisionOS ini files took 0.10 seconds
+[2025.01.27-13.33.58:788][148]LogPlayLevel: UAT: LogConfig: Display: Loading Linux ini files took 0.11 seconds
+[2025.01.27-13.33.58:942][167]LogPlayLevel: UAT: LogConfig: Display: Loading LinuxArm64 ini files took 0.11 seconds
+[2025.01.27-13.33.59:041][178]LogPlayLevel: UAT: LogStudioTelemetry: Display: Starting StudioTelemetry Module
+[2025.01.27-13.33.59:041][178]LogPlayLevel: UAT: RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.01.27-13.33.59:052][180]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+[2025.01.27-13.33.59:778][260]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Initialized
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogHAL: Display: Platform has ~ 32 GB [34271735808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.01.27-13.33.59:811][263]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.01.27-13.33.59:866][269]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.01.27-13.33.59:899][273]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.01.27-13.33.59:899][273]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.01.27-13.33.59:932][276]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.01.27-13.33.59:932][276]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.01.27-13.33.59:932][276]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.01.27-13.33.59:932][276]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.01.27-13.33.59:965][280]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.01.27-13.33.59:965][280]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.01.27-13.33.59:965][280]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.01.27-13.33.59:998][284]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.01.27-13.33.59:998][284]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.01.27-13.33.59:998][284]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.01.27-13.33.59:998][284]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.01.27-13.34.00:031][288]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.01.27-13.34.00:031][288]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.01.27-13.34.00:064][292]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.01.27-13.34.00:064][292]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.01.27-13.34.00:064][292]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.01.27-13.34.00:064][292]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.01.27-13.34.00:064][292]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.01.27-13.34.00:075][294]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.01.27-13.34.00:746][372]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.01.27-13.34.00:824][380]LogPlayLevel: UAT: LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.01.27-13.34.00:824][380]LogPlayLevel: UAT: LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.01.27-13.34.00:824][380]LogPlayLevel: UAT: LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1574 MiB)
+[2025.01.27-13.34.00:835][381]LogPlayLevel: UAT: LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.01.27-13.34.00:835][381]LogPlayLevel: UAT: LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.01.27-13.34.00:846][382]LogPlayLevel: UAT: LogDerivedDataCache: Display: C:/Users/pfahr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.05ms. RandomReadSpeed=1091.82MBs, RandomWriteSpeed=139.80MBs. Assigned SpeedClass 'Local'
+[2025.01.27-13.34.00:846][382]LogPlayLevel: UAT: LogShaderCompilers: Display: Using Local Shader Compiler with 13 workers.
+[2025.01.27-13.34.01:715][457]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.01.27-13.34.01:726][458]LogPlayLevel: UAT: LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.01.27-13.34.01:946][483]LogPlayLevel: UAT: LogEditorDomain: Display: EditorDomain is Disabled
+[2025.01.27-13.34.01:979][487]LogPlayLevel: UAT: LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/CachedAssetRegistry_*.bin.
+[2025.01.27-13.34.01:979][487]LogPlayLevel: UAT: LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.27-13.34.02:023][492]LogPlayLevel: UAT: LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.01.27-13.34.02:034][494]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.01.27-13.34.02:045][495]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.01.27-13.34.02:056][496]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.01.27-13.34.02:067][498]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.01.27-13.34.02:111][503]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.01.27-13.34.02:111][503]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.01.27-13.34.02:111][503]LogPlayLevel: UAT: LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.01.27-13.34.02:111][503]LogPlayLevel: UAT: LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.01.27-13.34.02:265][521]LogPlayLevel: UAT: LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.01.27-13.34.02:276][522]LogPlayLevel: UAT: LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.01.27-13.34.02:408][538]LogPlayLevel: UAT: LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.01.27-13.34.02:419][539]LogPlayLevel: UAT: LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.01.27-13.34.02:969][599]LogPlayLevel: UAT: LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.01.27-13.34.02:969][599]LogPlayLevel: UAT: LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.552 ms
+[2025.01.27-13.34.03:838][702]LogPlayLevel: UAT: LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.01.27-13.34.03:838][702]LogPlayLevel: UAT: LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.01.27-13.34.04:355][764]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.01.27-13.34.04:355][764]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.01.27-13.34.04:399][769]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36271 public script object entries (983.67 KB)
+[2025.01.27-13.34.05:587][904]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: LogCook: Display: CookSettings for Memory:
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: 	MemoryMaxUsedVirtual 0MiB
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: 	MemoryMaxUsedPhysical 0MiB
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: 	MemoryMinFreeVirtual 2048MiB
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: 	MemoryMinFreePhysical 2048MiB
+[2025.01.27-13.34.05:785][928]LogPlayLevel: UAT: 	MemoryTriggerGCAtPressureLevel None
+[2025.01.27-13.34.05:862][937]LogPlayLevel: UAT: 	UseSoftGC true (5/10)
+[2025.01.27-13.34.06:665][ 23]LogPlayLevel: UAT: LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+[2025.01.27-13.34.06:709][ 28]LogPlayLevel: UAT: LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.01.27-13.34.06:764][ 35]LogPlayLevel: UAT: LogAssetRegistry: Display: Asset registry cache written as 36.2 MiB to C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/CachedAssetRegistry_*.bin
+[2025.01.27-13.34.06:775][ 36]LogPlayLevel: UAT: LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.01.27-13.34.06:786][ 38]LogPlayLevel: UAT: LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.01.27-13.34.06:786][ 38]LogPlayLevel: UAT: LogZenStore: Display: Establishing oplog 'Panda.6a38b5ad/EditorDomain'
+[2025.01.27-13.34.06:797][ 39]LogPlayLevel: UAT: LogZenStore: Display: Zen project 'Panda.6a38b5ad' created
+[2025.01.27-13.34.06:819][ 42]LogPlayLevel: UAT: LogZenStore: Display: Zen oplog 'Panda.6a38b5ad/EditorDomain' created
+[2025.01.27-13.34.06:962][ 59]LogPlayLevel: UAT: LogCook: Display: Waiting for Asset Registry
+[2025.01.27-13.34.06:962][ 59]LogPlayLevel: UAT: LogCook: Display: FULL COOK: Neither -iterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+[2025.01.27-13.34.17:767][189]LogPlayLevel: UAT: LogCook: Display: Sandbox cleanup took 0.078 seconds for platforms Windows
+[2025.01.27-13.34.17:767][189]LogPlayLevel: UAT: LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.01.27-13.37.19:706][344]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 674.252808
+[2025.01.27-13.37.19:862][360]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.27-13.37.19:862][360]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 674.399292, Update Interval: 332.923370
+[2025.01.27-13.37.35:137][850]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.01.27-13.38.13:452][453]LogPlayLevel: UAT: LogShaderCompilers: Display: Shader autogen file written: C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.01.27-13.39.32:528][574]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FClusteredShadingPS(permutation 32, format PCD3D_SM5) compile time exceeded threshold (173.613s)
+[2025.01.27-13.39.34:056][722]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FClusteredShadingPS(permutation 48, format PCD3D_SM5) compile time exceeded threshold (180.120s)
+[2025.01.27-13.42.56:956][ 81]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FClusteredShadingPS(permutation 112, format PCD3D_SM5) compile time exceeded threshold (273.362s)
+[2025.01.27-13.42.59:383][ 88]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1013.932739
+[2025.01.27-13.43.00:384][ 91]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.27-13.43.00:384][ 91]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1014.598511, Update Interval: 324.806061
+[2025.01.27-13.43.26:055][168]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FClusteredShadingPS(permutation 96, format PCD3D_SM5) compile time exceeded threshold (263.530s)
+[2025.01.27-13.43.41:005][205]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 35, format PCD3D_SM5) compile time exceeded threshold (39.975s)
+[2025.01.27-13.43.59:190][387]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 43, format PCD3D_SM5) compile time exceeded threshold (52.033s)
+[2025.01.27-13.44.00:015][486]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 51, format PCD3D_SM5) compile time exceeded threshold (66.208s)
+[2025.01.27-13.44.00:015][486]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 59, format PCD3D_SM5) compile time exceeded threshold (69.269s)
+[2025.01.27-13.44.00:015][486]LogPlayLevel: UAT: LogShaderLibrary: Display:
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Assets: 0, Unique Shadermaps: 416 (0.00%)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shaders: 6445, Unique Shaders: 6445 (100.00%)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shader Size: 70.18mb, Unique Shaders Size: 70.18mb (100.00%)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: === Extended info:
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Median number of shaders in shadermap: 4
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Maximum number of shaders in shadermap: 454
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Compute: 4448 shaders (69.01%), compressed size: 49.46 MB (11.39 KB avg per shader), uncompressed size: 64.66 MB (14.89 KB avg per shader)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Pixel: 1870 shaders (29.01%), compressed size: 20.40 MB (11.17 KB avg per shader), uncompressed size: 26.90 MB (14.73 KB avg per shader)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Vertex: 123 shaders (1.91%), compressed size: 0.32 MB (2.65 KB avg per shader), uncompressed size: 0.39 MB (3.29 KB avg per shader)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.05%), compressed size: 0.01 MB (2.15 KB avg per shader), uncompressed size: 0.01 MB (3.31 KB avg per shader)
+[2025.01.27-13.44.00:026][487]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_WorkGraphRoot: 1 shaders (0.02%), compressed size: 0.00 MB (2.73 KB avg per shader), uncompressed size: 0.00 MB (3.35 KB avg per shader)
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Textual dump saved to 'C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display:
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Assets: 0, Unique Shadermaps: 320 (0.00%)
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shaders: 3926, Unique Shaders: 3915 (99.72%)
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shader Size: 12.33mb, Unique Shaders Size: 12.32mb (99.97%)
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: === Extended info:
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Maximum number of shaders in shadermap: 303
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Pixel: 1636 shaders (41.79%), compressed size: 6.28 MB (3.93 KB avg per shader), uncompressed size: 30.53 MB (19.11 KB avg per shader)
+[2025.01.27-13.44.00:081][494]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Compute: 2177 shaders (55.61%), compressed size: 5.98 MB (2.81 KB avg per shader), uncompressed size: 22.83 MB (10.74 KB avg per shader)
+[2025.01.27-13.44.00:092][495]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Vertex: 100 shaders (2.55%), compressed size: 0.06 MB (0.58 KB avg per shader), uncompressed size: 0.12 MB (1.26 KB avg per shader)
+[2025.01.27-13.44.00:092][495]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderLibrary: Display: Textual dump saved to 'C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogCook: Display: Discovering localized assets for cultures: en
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogCook: Display: Found 0 localized assets
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Total job queries 13.277, among them cache hits 1.100 (8.29%), DDC hits 6.671 (50.24%), Duplicates 1.286 (9.69%)
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Tracking 10.891 distinct input hashes that result in 10.401 distinct outputs (95.50%)
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: RAM used: 7,36 MiB of 1,60 GiB budget. Usage: 0.45%
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Shaders Compiled: 4.220
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs assigned 4.220, completed 4.220 (100%)
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Time job spent in pending queue: average 275.68 s, longest 544.82 s
+[2025.01.27-13.44.00:114][498]LogPlayLevel: UAT: LogShaderCompilers: Display: Job execution time: average 16.64 s, max 280.24 s
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Job life time (pending + execution): average 292.33 s, max 580.44
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Shader code size: average 13,543 KiB, min 144 B, max 148,316 KiB
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 580.88 s
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs were issued in 446 batches (only local compilation was used), average 9.46 jobs/batch
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Average processing rate: 7.26 jobs/sec
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread time: 7.011,739 s
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread preprocess time: 152,604 s
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Percentage time preprocessing: 2.18%
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Effective parallelization: 12.07 (times faster than compiling all shaders on one thread). Compare with number of workers: 13
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 43.21 sec, max 69.27 sec, min 13.64 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 27.48 sec, max 27.48 sec, min 27.48 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                FVisiblityRasterComputeRasterizeMultiSampleCS (compiled    4 times, average 10.90 sec, max 26.35 sec, min 3.48 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                             FDeferredLightPS - 20.79% of total time (compiled  302 times, average 4.83 sec, max 13.42 sec, min 0.63 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 19.45% of total time (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS - 15.44% of total time (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 6.92% of total time (compiled  144 times, average 3.37 sec, max 6.40 sec, min 0.87 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display:                                    FDistanceFieldShadowingCS - 6.70% of total time (compiled  432 times, average 1.09 sec, max 1.59 sec, min 0.58 sec)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: === Material stats ===
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Translated:    0
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Total Translate Time: 0.00 s
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Translation Only: 0.00 s (0%)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.27-13.44.00:125][499]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.44.00:180][506]LogPlayLevel: UAT: LogCook: Display: Cooked packages 0 Packages Remain 434 Total 434
+[2025.01.27-13.44.08:270][472]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=272, VirtualMemory=2352MiB, VirtualMemoryAvailable=11703MiB
+[2025.01.27-13.44.08:270][472]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_NoCollisionMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 1096212050caaf678b009a1a45616fb379c571f5), compiling.
+[2025.01.27-13.44.09:612][621]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_NoCollisionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 5de3a2a7339da6e5c5f687fa92adb49297b7c758), compiling.
+[2025.01.27-13.44.09:678][629]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_UnselectedMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: fc5ee5cb1f99d499d80e23658c2758e6a69bfb73), compiling.
+[2025.01.27-13.44.09:711][632]LogPlayLevel: UAT: LogCook: Display: Cooked packages 8 Packages Remain 537 Total 545
+[2025.01.27-13.44.09:711][632]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_DynamicMeshComponentVtxColor in PCD3D_SM6, Default, SM6, Game (DDC key hash: 59afc0fcacf3fdafe15412efeb07b4839b5b4109), compiling.
+[2025.01.27-13.44.09:755][636]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_UnselectedMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: ff2ace4d479df4e1203449cd3a5f3e191274feae), compiling.
+[2025.01.27-13.44.09:821][643]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for ControlRigGizmoMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 0bbe284715a17c3e8c0229dff2f2e83c18298df4), compiling.
+[2025.01.27-13.44.09:873][645]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.01.27-13.44.09:917][649]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for NaniteHiddenSectionMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 1e9cb4a47561c14e0e216637367c4cf3c933c1e1), compiling.
+[2025.01.27-13.44.09:917][649]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for GizmoMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 668f788b04ca2a1b5b5a90e235b7dea78bd03a2e), compiling.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DebugMeshMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3897fccb726d6c815e42c5c149bb9f2ee5ca9a42), compiling.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for RemoveSurfaceMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: c80cb4d6c3fdbbfc0091190ebd0c5fee087ec130), compiling.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:928][650]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:939][651]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:939][651]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:939][651]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:950][652]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:950][652]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:983][656]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:994][656]LogPlayLevel: UAT: LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.01.27-13.44.09:994][656]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DataflowTwoSidedVertexMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 0a382643989c659a372b121e051fd890f5ab297a), compiling.
+[2025.01.27-13.44.11:049][749]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DataflowVertexMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3da951552036a4dcd3bfa0979334552e59f3e8dc), compiling.
+[2025.01.27-13.44.11:049][749]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: e7baf141cb42e6f66e3e6e9a4a62b322f470d50d), compiling.
+[2025.01.27-13.44.11:093][753]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for ControlRigXRayMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3af3fe3eeebcd91369fefead3544fa8c1efced73), compiling.
+[2025.01.27-13.44.11:191][761]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairMeshesDefaultMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 03d08c37375c77ffab4a7c6f70c7bba46bc16a5f), compiling.
+[2025.01.27-13.44.11:202][762]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultTextMaterialOpaque in PCD3D_SM6, Default, SM6, Game (DDC key hash: a55bd76ddda5f6da57221a8f050b34cff9adb783), compiling.
+[2025.01.27-13.44.11:213][762]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairCardsDefaultMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 62e49def31e2f1986f4a0f99fcbd50c76202c4ba), compiling.
+[2025.01.27-13.44.11:214][762]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairDefaultMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: bb68f610d23a75aa27a9360085833be068b10e30), compiling.
+[2025.01.27-13.44.11:225][763]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DebugEditorMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 292836ade33c6c6800d9e8aba040c32b2fac7160), compiling.
+[2025.01.27-13.44.11:236][764]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SplineEditorMeshMat in PCD3D_SM6, Default, SM6, Game (DDC key hash: 4dd65a0e518c89bffa78220643bf232228f559f3), compiling.
+[2025.01.27-13.44.11:236][764]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_SimpleUnlitTranslucent in PCD3D_SM6, Default, SM6, Game (DDC key hash: 1b0679b2c6b839dc26ad6e19039b9cf4c7730288), compiling.
+[2025.01.27-13.44.11:236][764]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for CineMat in PCD3D_SM6, Default, SM6, Game (DDC key hash: 364c01a3594e2a51f504ff9207080f6fbdb06fd4), compiling.
+[2025.01.27-13.44.11:269][767]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TranslucentTransformGizmoMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: c40673da903d08abb811a8f0781ea099bc74c002), compiling.
+[2025.01.27-13.44.11:269][767]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Xray in PCD3D_SM6, Default, SM6, Game (DDC key hash: 8cae2469994ae4386f069bfc6771966c6032dc55), compiling.
+[2025.01.27-13.44.11:884][818]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Main in PCD3D_SM6, Default, SM6, Game (DDC key hash: 99b0b76aea3804f5cdc63663c65c0391de16ec98), compiling.
+[2025.01.27-13.44.12:070][830]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 118b95d08da577d3496106dfe5f324fcd9b7e867), compiling.
+[2025.01.27-13.44.12:092][832]LogPlayLevel: UAT: LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.536 seconds, threshold is 0.300 s), will parallelize next time.
+[2025.01.27-13.44.12:103][833]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial_WS_Normal_VT in PCD3D_SM6, Default, SM6, Game (DDC key hash: 90340c8caa6e9af0653c6270276b0f49ae120bc7), compiling.
+[2025.01.27-13.44.12:103][833]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial_VT in PCD3D_SM6, Default, SM6, Game (DDC key hash: 44ef33c89ce9eaeb6b35419484cc135ea9236d1c), compiling.
+[2025.01.27-13.44.12:103][833]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 7d8e50c7a63b0b001973e7b710686cf72cce1149), compiling.
+[2025.01.27-13.44.12:103][833]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_InvalidLightmapSettings in PCD3D_SM6, Default, SM6, Game (DDC key hash: f41105be8d4dd5c487ab9b4c76d003a19b03acee), compiling.
+[2025.01.27-13.44.12:114][834]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for EmissiveMeshMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 9a798a77af40625aa8fc340da0c59463009ac3fd), compiling.
+[2025.01.27-13.44.12:125][835]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_JointLimitMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 8c81a945a78142c0feff03d42b768b1394efa57a), compiling.
+[2025.01.27-13.44.12:125][835]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Manip in PCD3D_SM6, Default, SM6, Game (DDC key hash: fef28cd8069b9230c0bec7a6aa2ff0656f63a127), compiling.
+[2025.01.27-13.44.12:125][835]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultSpriteMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 57cd3f88f2d1e95d5395b6a5be4391d2926033b5), compiling.
+[2025.01.27-13.44.12:136][836]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TransformGizmoMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 8003c0ea60a586593e12ac844e25b784c8f3afea), compiling.
+[2025.01.27-13.44.12:136][836]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_VolumeRenderSphereTracePP in PCD3D_SM6, Default, SM6, Game (DDC key hash: b43fd46b718b44b2106823febc5f3f67ce749cc6), compiling.
+[2025.01.27-13.44.12:817][888]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough in PCD3D_SM6, Default, SM6, Game (DDC key hash: d2c36bac52c60419dbe384b2cc134cc90467e665), compiling.
+[2025.01.27-13.44.12:872][890]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairDebugMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: bc5cf7c24f55adb00914b72c4db6635f1d2fe8aa), compiling.
+[2025.01.27-13.44.12:872][890]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for m_SimpleVolumetricCloud in PCD3D_SM6, Default, SM6, Game (DDC key hash: 1e9e77f755e3a9761f603dd7cf93b853055703e9), compiling.
+[2025.01.27-13.44.12:872][890]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 79988ba0e485eb9c9c1bca339c7fafa409679c6b), compiling.
+[2025.01.27-13.44.12:872][890]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3d0cee19b3e04457a747c0657638692e45574f2b), compiling.
+[2025.01.27-13.44.12:960][893]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 80f046e4cda9b140cfeb5cbedbf9ed4303077862), compiling.
+[2025.01.27-13.44.13:486][928]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 4df6fd6f32d7ea84551ee6252529c7db23bda88a), compiling. Is special engine material.
+[2025.01.27-13.44.13:706][943]LogPlayLevel: UAT: LogCook: Display: Cooked packages 178 Packages Remain 367 Total 545
+[2025.01.27-13.44.13:706][943]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 209e0f99186df68c4a979716de55fc772f16385d), compiling.
+[2025.01.27-13.44.14:956][ 30]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: c3700152430fd3fe19ff10447956af37418baf4e), compiling.
+[2025.01.27-13.44.15:286][ 51]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f3856dde9f6bf66454d0b33a4d05a4671b586d1e), compiling.
+[2025.01.27-13.44.17:932][269]LogPlayLevel: UAT: LogCook: Display: Cooked packages 282 Packages Remain 263 Total 545
+[2025.01.27-13.44.17:932][269]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough in PCD3D_SM5, Default, SM5, Game (DDC key hash: f85e13d2a910717c5f011b0a98a57278735ed524), compiling.
+[2025.01.27-13.44.17:943][270]LogPlayLevel: UAT: LogCook: Display: Cooked packages 297 Packages Remain 248 Total 545
+[2025.01.27-13.44.17:954][270]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SpeedTreeMaster in PCD3D_SM6, Default, SM6, Game (DDC key hash: 015093d5c78e7cb2c201e0d0261b24b31723b978), compiling.
+[2025.01.27-13.44.18:151][280]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PPM_DefaultCalibrationColor in PCD3D_SM6, Default, SM6, Game (DDC key hash: 2f8a5491cd9504944db3fae43112eb7cd3b2c4ba), compiling.
+[2025.01.27-13.44.18:513][316]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PPM_DefaultCalibrationGrayscale in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3f9fb62a6de44202f754566c101d9bf22e7144f7), compiling.
+[2025.01.27-13.44.18:535][319]LogPlayLevel: UAT: LogStaticMesh: Display: Waiting for static meshes to be ready 3/25 (/ControlRig/Controls/ControlRig_Sphere_1mm) ...
+[2025.01.27-13.44.18:838][347]LogPlayLevel: UAT: LogStaticMesh: Display: Waiting for static meshes to be ready 12/29 (/ControlRig/Controls/ControlRig_Diamond_3mm) ...
+[2025.01.27-13.44.19:924][438]LogPlayLevel: UAT: LogStaticMesh: Display: Waiting for static meshes to be ready 19/29 (/ControlRig/Controls/ControlRig_Box_1mm) ...
+[2025.01.27-13.44.20:078][449]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3c31c1c075b6662b828ab6b7912175f323b4ed06), compiling. Is special engine material.
+[2025.01.27-13.44.20:078][449]LogPlayLevel: UAT: LogCook: Display: Cooked packages 431 Packages Remain 116 Total 547
+[2025.01.27-13.44.20:121][454]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for OpaqueUnlitSpriteMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: edd45fe27fded27ccf95b27bf55acf7934fb4212), compiling.
+[2025.01.27-13.44.20:121][454]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked in PCD3D_SM6, Default, SM6, Game (DDC key hash: 558db4da04a41013adee2cb18aa2f6bb6f68168b), compiling.
+[2025.01.27-13.44.20:143][455]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque in PCD3D_SM6, Default, SM6, Game (DDC key hash: 2d527a2e402273e014c0a0075242936c62a10ae6), compiling.
+[2025.01.27-13.44.20:143][455]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Translucent in PCD3D_SM6, Default, SM6, Game (DDC key hash: 86f096538a03b1ca01a74569ffd1cf2170129641), compiling.
+[2025.01.27-13.44.20:176][458]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SnapGridMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 7dfc56db795b7a88ccc591589b96c6b7ea4b0cd5), compiling.
+[2025.01.27-13.44.20:176][458]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialMeter in PCD3D_SM6, Default, SM6, Game (DDC key hash: b92e1d7f35e8374c556f538877d43bda898e5323), compiling.
+[2025.01.27-13.44.20:209][461]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialRoundedSlider in PCD3D_SM6, Default, SM6, Game (DDC key hash: 65fc575180a513e1d7ad13c68972fd7cfb5df06c), compiling.
+[2025.01.27-13.44.20:209][461]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialEnvelope_ADSR in PCD3D_SM6, Default, SM6, Game (DDC key hash: c08c5a482a049d3d9b1565f263ecbbaf746c5f5b), compiling.
+[2025.01.27-13.44.20:253][465]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialKnob in PCD3D_SM6, Default, SM6, Game (DDC key hash: 66b1c619ee46b69ddf433f3d5a0a7ca078ee80e9), compiling.
+[2025.01.27-13.44.20:253][465]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialToggleButton in PCD3D_SM6, Default, SM6, Game (DDC key hash: 7a0dfd53a6259340bf2c454b63ec215dcf8ba6d7), compiling.
+[2025.01.27-13.44.20:253][465]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked_OneSided in PCD3D_SM6, Default, SM6, Game (DDC key hash: e9f33c16324686d9fe5523da5a1c65e76c2212b6), compiling.
+[2025.01.27-13.44.20:704][503]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque_OneSided in PCD3D_SM6, Default, SM6, Game (DDC key hash: 22e2890234004da4929b7a3ac3c2dc6cf96069d8), compiling.
+[2025.01.27-13.44.21:747][599]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SpeedTreeBillboardMaster in PCD3D_SM6, Default, SM6, Game (DDC key hash: f8a4915a16f0e06eed7a0320d36867e966381e98), compiling.
+[2025.01.27-13.44.21:856][607]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Main in PCD3D_SM5, Default, SM5, Game (DDC key hash: 408fdb72a8b27e3e03637ace3be46503213cc9a3), compiling.
+[2025.01.27-13.44.21:933][612]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PreviewShadowIndicatorMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 36ddf1688f2a4b4962750606a4c3b9b70a4d15d0), compiling.
+[2025.01.27-13.44.22:075][624]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TranslucentUnlitSpriteMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: d63de7aa4dd80f798e845252cde9e1ea34b87ec2), compiling.
+[2025.01.27-13.44.22:108][625]LogPlayLevel: UAT: LogCook: Display: Cooked packages 445 Packages Remain 102 Total 547
+[2025.01.27-13.44.22:174][631]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for IntroMT_Mat in PCD3D_SM6, Default, SM6, Game (DDC key hash: ae50c92b7d832994defc73c3b2a61920954c304b), compiling.
+[2025.01.27-13.44.22:240][633]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TimeEmpty1_Video_Mat in PCD3D_SM6, Default, SM6, Game (DDC key hash: b02aa249b5fac67bb6435bf2edff18fb25725dea), compiling.
+[2025.01.27-13.44.22:240][633]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Mask in PCD3D_SM6, Default, SM6, Game (DDC key hash: 2098bace2e866f4b3b2ab0eb2d2e4cc73b7f3852), compiling.
+[2025.01.27-13.44.22:240][633]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Blend in PCD3D_SM6, Default, SM6, Game (DDC key hash: fb78683fa1f796f1e964d0b4a71a2a4e09095261), compiling.
+[2025.01.27-13.44.22:240][633]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Opaque_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: e0c0eda3c10f41a9cbd81a3d4328be108ed017bc), compiling.
+[2025.01.27-13.44.22:383][640]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Mask_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: b25f68962194097e0466583dee9b30e813645623), compiling.
+[2025.01.27-13.44.22:383][640]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Blend_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 531c69124fb17e53847b9dd916c1bd29283c8ea5), compiling.
+[2025.01.27-13.44.22:394][640]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Unlit in PCD3D_SM6, Default, SM6, Game (DDC key hash: cd81382440e96ea1f16c8e2705959728404ee736), compiling.
+[2025.01.27-13.44.22:405][640]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Blend_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: eff1c66c835b51b8bca6e951fe711f5125e993c0), compiling.
+[2025.01.27-13.44.22:427][641]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Default in PCD3D_SM6, Default, SM6, Game (DDC key hash: 19d19aa9406b094977ff4c0c946f800650c53c63), compiling.
+[2025.01.27-13.44.22:449][642]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_ClearCoat in PCD3D_SM6, Default, SM6, Game (DDC key hash: bd590b5f8ad5dabd1880d05a8ce1f2d52637bbae), compiling.
+[2025.01.27-13.44.22:471][645]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Sheen in PCD3D_SM6, Default, SM6, Game (DDC key hash: e0569dd06c24a0f99ea6857f299ce560dec9e781), compiling.
+[2025.01.27-13.44.22:482][646]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Transmission in PCD3D_SM6, Default, SM6, Game (DDC key hash: ee2e42b73e02900a91fde1204bdc53a9527b474f), compiling.
+[2025.01.27-13.44.22:504][646]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_SpecularGlossiness in PCD3D_SM6, Default, SM6, Game (DDC key hash: 434a15a2e4c9e7266aef443e13b8f05fe675a59b), compiling.
+[2025.01.27-13.44.22:515][647]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Blend in PCD3D_SM6, Default, SM6, Game (DDC key hash: 68ca43b0d29c74b3e01b96ea9f23d37fd783c02a), compiling.
+[2025.01.27-13.44.22:581][650]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Opaque_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: b37d542e106d38e8748c1802f0de5547d0f337ef), compiling.
+[2025.01.27-13.44.22:581][650]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Mask_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 41e4e6d8fd51ddeb7391297638896efa16571869), compiling.
+[2025.01.27-13.44.22:658][654]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Blend_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: d380ca58ba1887f49a3341b6d9a00d58b0994de3), compiling.
+[2025.01.27-13.44.22:658][654]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Mask in PCD3D_SM6, Default, SM6, Game (DDC key hash: 46b938aa11dadaf60326663451c3b2565c4ffbd8), compiling.
+[2025.01.27-13.44.22:757][659]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Blend in PCD3D_SM6, Default, SM6, Game (DDC key hash: 6c191429c039d92e51fbfac73ffbb0c00b0a310c), compiling.
+[2025.01.27-13.44.22:757][659]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Opaque_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 10cc876bcd348f4f80d7b0b31fad338652797c06), compiling.
+[2025.01.27-13.44.22:757][659]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Mask_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 5fd67faa313322671e8c6be0d6fd619fb57f784e), compiling.
+[2025.01.27-13.44.22:757][659]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Blend_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 68bdb3c886cd754e503a3ab4a172d98814302423), compiling.
+[2025.01.27-13.44.22:900][665]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Mask in PCD3D_SM6, Default, SM6, Game (DDC key hash: 4827d17522fe72cd5875925584593eb04961924f), compiling.
+[2025.01.27-13.44.22:900][665]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Blend in PCD3D_SM6, Default, SM6, Game (DDC key hash: 9ae38fe7de02e49ce6c1c02e924948a8a0da49d1), compiling.
+[2025.01.27-13.44.22:966][669]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Opaque_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 860998fcde96090af1a440e6c50347b17b23aead), compiling.
+[2025.01.27-13.44.23:021][673]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Mask_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 41f2d665514b6dc606bf5510e712b6266d99bcc8), compiling.
+[2025.01.27-13.44.23:142][678]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Blend_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 193094a104cf504e1cc111e36c30e60841c9e7fc), compiling.
+[2025.01.27-13.44.23:241][683]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Transmission_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 686238872e30e28ee8f7303038f62495dfdd5895), compiling.
+[2025.01.27-13.44.23:296][686]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Mask in PCD3D_SM6, Default, SM6, Game (DDC key hash: d2ba0c000d6c3008d64eca5bb8e12a2adef514b1), compiling.
+[2025.01.27-13.44.23:297][686]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Blend in PCD3D_SM6, Default, SM6, Game (DDC key hash: b11b633903d18ce7b9732abfd5475254325ecb6e), compiling.
+[2025.01.27-13.44.23:352][691]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Opaque_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: d97cef429cb68e35761868c21eb3b3294dee8538), compiling.
+[2025.01.27-13.44.23:924][726]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Mask_DS in PCD3D_SM6, Default, SM6, Game (DDC key hash: 3f79e46a6fd8d4276eb065e09d3d914e88b612ce), compiling.
+[2025.01.27-13.44.23:946][726]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Mask in PCD3D_SM6, Default, SM6, Game (DDC key hash: 067892039f3d7a4d28a1f7fcdd840deccf335325), compiling.
+[2025.01.27-13.44.24:242][745]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for IntroMT_Mat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 80fd92a8019325af08a08f1af91328c163efabee), compiling.
+[2025.01.27-13.44.27:241][ 15]LogPlayLevel: UAT: LogCook: Display: Cooked packages 455 Packages Remain 92 Total 547
+[2025.01.27-13.44.27:263][ 16]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_SimpleUnlitTranslucent in PCD3D_SM5, Default, SM5, Game (DDC key hash: 9c1da915f9a083e8b3dc8e578e557aa5b0611864), compiling.
+[2025.01.27-13.44.28:955][171]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_DynamicMeshComponentVtxColor in PCD3D_SM5, Default, SM5, Game (DDC key hash: 71d2a15b6b0e383a91bbb424807bb3d95bdebf52), compiling.
+[2025.01.27-13.44.29:010][171]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for ControlRigGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: a416c5d7f112bbba971aac69ec967b563db394e3), compiling.
+[2025.01.27-13.44.29:010][171]LogPlayLevel: UAT: LogCook: Display: Cooked packages 455 Packages Remain 92 Total 547
+[2025.01.27-13.44.30:953][243]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DebugMeshMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4c2a9736b1d341e8fc90c1dee9495beb9e16f9f0), compiling.
+[2025.01.27-13.44.30:953][243]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for NaniteHiddenSectionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: ccd8e9a35ad986ba80764b1424a97a3774935cfa), compiling.
+[2025.01.27-13.44.32:306][287]LogPlayLevel: UAT: LogCook: Display: Cooked packages 457 Packages Remain 90 Total 547
+[2025.01.27-13.44.32:328][288]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=3631, VirtualMemory=2842MiB, VirtualMemoryAvailable=9587MiB
+[2025.01.27-13.44.35:772][349]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for GizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: cd3458a09550068c1b595ad2e290acbdeb4de18b), compiling.
+[2025.01.27-13.44.37:785][355]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for RemoveSurfaceMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 37697264597286aa27f5e7eba8d9fad5a09e0b31), compiling.
+[2025.01.27-13.44.39:786][361]LogPlayLevel: UAT: LogCook: Display: Cooked packages 458 Packages Remain 89 Total 547
+[2025.01.27-13.44.44:794][698]LogPlayLevel: UAT: LogCook: Display: Cooked packages 459 Packages Remain 88 Total 547
+[2025.01.27-13.44.45:506][776]LogPlayLevel: UAT: LogCook: Display: Cooked packages 460 Packages Remain 87 Total 547
+[2025.01.27-13.44.46:801][919]LogPlayLevel: UAT: LogCook: Display: Cooked packages 460 Packages Remain 87 Total 547
+[2025.01.27-13.44.48:801][146]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DataflowVertexMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0a686eb519cfca48867513265accbd0354fd28e7), compiling.
+[2025.01.27-13.44.53:807][696]LogPlayLevel: UAT: LogCook: Display: Cooked packages 463 Packages Remain 84 Total 547
+[2025.01.27-13.44.55:378][864]LogPlayLevel: UAT: LogCook: Display: Cooked packages 465 Packages Remain 82 Total 547
+[2025.01.27-13.44.55:477][873]LogPlayLevel: UAT: LogCook: Display: Cooked packages 465 Packages Remain 82 Total 547
+[2025.01.27-13.44.58:808][224]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DataflowTwoSidedVertexMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f795a98c76fd6bd4a48f2f1053cc8e17ca1ae0d2), compiling.
+[2025.01.27-13.45.00:807][448]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for CineMat in PCD3D_SM5, Default, SM5, Game (DDC key hash: dca45320c9dc034f984d2c898039319d125a3747), compiling.
+[2025.01.27-13.45.02:820][671]LogPlayLevel: UAT: LogCook: Display: Cooked packages 465 Packages Remain 82 Total 547
+[2025.01.27-13.45.05:810][999]LogPlayLevel: UAT: LogCook: Display: Cooked packages 466 Packages Remain 81 Total 547
+[2025.01.27-13.45.10:817][528]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=3631, VirtualMemory=2824MiB, VirtualMemoryAvailable=9280MiB
+[2025.01.27-13.45.12:135][665]LogPlayLevel: UAT: LogCook: Display: Cooked packages 466 Packages Remain 81 Total 547
+[2025.01.27-13.45.15:824][ 61]LogPlayLevel: UAT: LogCook: Display: Cooked packages 466 Packages Remain 81 Total 547
+[2025.01.27-13.45.16:779][170]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 113de17a0738f07230f3f95a6fcb6a8f099cb7d3), compiling.
+[2025.01.27-13.45.16:812][171]LogPlayLevel: UAT: LogCook: Display: Cooked packages 466 Packages Remain 81 Total 547
+[2025.01.27-13.45.17:097][202]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3a206b4f9cf830960b504bed5f0d6ef5d49363e6), compiling.
+[2025.01.27-13.45.17:823][273]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for ControlRigXRayMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: da559e03e6464994a5b17ab51b534b72a29fba8b), compiling.
+[2025.01.27-13.45.18:637][361]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3502da0c937d241ad0c95c01b4143e12d2a03655), compiling.
+[2025.01.27-13.45.22:828][788]LogPlayLevel: UAT: LogCook: Display: Cooked packages 467 Packages Remain 80 Total 547
+[2025.01.27-13.45.24:220][917]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2a6f3566b20590c4ff426121d60a179cc2b87339), compiling.
+[2025.01.27-13.45.24:220][917]LogPlayLevel: UAT: LogCook: Display: Cooked packages 467 Packages Remain 80 Total 547
+[2025.01.27-13.45.24:220][917]LogPlayLevel: UAT: LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+[2025.01.27-13.45.24:516][941]LogPlayLevel: UAT:   CookSettings.bUseSoftGC: Available physical memory 16338MiB is less than the current target for SoftGC 16342MiB.
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: LogCookCommandlet: Display: GarbageCollection... (Soft GC)
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: LogCook: Display: GarbageCollection Results:
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 	Type: Soft
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 	NumObjects:
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		Capacity:           25231360
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		Before GC:             64153
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		After GC:              45809
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		Freed by GC:           18344
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 	Virtual Memory:
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		Before GC:              2939 MB
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		After GC:               2725 MB
+[2025.01.27-13.45.25:252][  6]LogPlayLevel: UAT: 		Freed by GC:             213 MB
+[2025.01.27-13.45.25:560][ 32]LogPlayLevel: UAT: 
+[2025.01.27-13.45.30:259][459]LogPlayLevel: UAT: LogCook: Display: Cooked packages 468 Packages Remain 79 Total 547
+[2025.01.27-13.45.32:826][702]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 21cd98246d1dbe7a67b8fd54ecf4ddd5e7a9c8bc), compiling.
+[2025.01.27-13.45.35:254][933]LogPlayLevel: UAT: LogCook: Display: Cooked packages 468 Packages Remain 79 Total 547
+[2025.01.27-13.45.40:264][414]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2575MiB, VirtualMemoryAvailable=9142MiB
+[2025.01.27-13.45.43:436][729]LogPlayLevel: UAT: LogCook: Display: Cooked packages 468 Packages Remain 79 Total 547
+[2025.01.27-13.45.46:954][ 88]LogPlayLevel: UAT: LogCook: Display: Cooked packages 468 Packages Remain 79 Total 547
+[2025.01.27-13.45.47:069][ 95]LogPlayLevel: UAT: LogCook: Display: Cooked packages 469 Packages Remain 78 Total 547
+[2025.01.27-13.45.47:124][ 97]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6e7cd2ca29ebb5885ad3982da658a0aab24f5f38), compiling.
+[2025.01.27-13.45.52:096][172]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 81187e5531add617c5d755585537c5536643ab3f), compiling.
+[2025.01.27-13.45.56:627][185]LogPlayLevel: UAT: LogCook: Display: Cooked packages 470 Packages Remain 77 Total 547
+[2025.01.27-13.45.56:837][186]LogPlayLevel: UAT: LogCook: Display: Cooked packages 470 Packages Remain 77 Total 547
+[2025.01.27-13.45.56:873][186]LogPlayLevel: UAT: LogCook: Display: Cooked packages 471 Packages Remain 76 Total 547
+[2025.01.27-13.45.58:469][191]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 557b727ae29f009c3394161675c777fba733fa74), compiling.
+[2025.01.27-13.45.58:626][191]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 757d0acfd451130251763473d89aa3b53a683c96), compiling.
+[2025.01.27-13.46.00:220][196]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3b2b5e6d7e77bd2a33b0a615f8d1da65e66431fb), compiling.
+[2025.01.27-13.46.01:552][200]LogPlayLevel: UAT: LogCook: Display: Cooked packages 473 Packages Remain 74 Total 547
+[2025.01.27-13.46.01:653][200]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: dcfe728a8ed5ce7d7845048e9c006c2c235f1ee8), compiling.
+[2025.01.27-13.46.01:695][200]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairMeshesDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8770ebf02cd12102291d8bcb943f26cffe01a36c), compiling.
+[2025.01.27-13.46.01:773][201]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4e2a40be48b80d447d561fdba053e05492721921), compiling.
+[2025.01.27-13.46.01:872][201]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: c846119167485cc03a7732864f9ac89e63a7d057), compiling.
+[2025.01.27-13.46.03:886][207]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: acb18bdc0ccf5b983d13290c9190c70d2364f8ea), compiling.
+[2025.01.27-13.46.06:875][216]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.11:878][231]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2579MiB, VirtualMemoryAvailable=8890MiB
+[2025.01.27-13.46.14:814][332]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.16:888][494]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.21:896][903]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: e5768815465794589791b95961c8030fd34ac3f7), compiling.
+[2025.01.27-13.46.26:906][312]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.31:913][732]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.33:914][879]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.36:373][ 67]LogPlayLevel: UAT: LogCook: Display: Cooked packages 474 Packages Remain 73 Total 547
+[2025.01.27-13.46.41:377][520]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2580MiB, VirtualMemoryAvailable=8002MiB
+[2025.01.27-13.46.46:374][980]LogPlayLevel: UAT: LogCook: Display: Cooked packages 475 Packages Remain 72 Total 547
+[2025.01.27-13.46.49:473][141]LogPlayLevel: UAT: LogCook: Display: Cooked packages 475 Packages Remain 72 Total 547
+[2025.01.27-13.46.49:890][177]LogPlayLevel: UAT: LogCook: Display: Cooked packages 475 Packages Remain 72 Total 547
+[2025.01.27-13.46.51:470][340]LogPlayLevel: UAT: LogCook: Display: Cooked packages 476 Packages Remain 71 Total 547
+[2025.01.27-13.46.53:084][512]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultTextMaterialOpaque in PCD3D_SM5, Default, SM5, Game (DDC key hash: d3596b7dde0c05a8d8c4b085b794ee2c846515c0), compiling.
+[2025.01.27-13.46.54:514][663]LogPlayLevel: UAT: LogCook: Display: Cooked packages 480 Packages Remain 67 Total 547
+[2025.01.27-13.46.54:558][665]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 71e73d0d1ef6f612f767d0341f02b5f5d975227b), compiling.
+[2025.01.27-13.46.54:613][670]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_SpecularGlossiness in PCD3D_SM5, Default, SM5, Game (DDC key hash: b4fcf31cb518a3b98a6fdd871c8ec90c2544a273), compiling.
+[2025.01.27-13.46.56:479][862]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: c1e9bf32680839e29accb8f0b7cfeadc44babaf2), compiling.
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Default_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 084c633760ba5674673df1a2311bb8d42f0d9919), compiling.
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogCook: Display: Cooked packages 480 Packages Remain 67 Total 547
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Total job queries 17.212, among them cache hits 1.320 (7.67%), DDC hits 7.566 (43.96%), Duplicates 1.866 (10.84%)
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Tracking 14.026 distinct input hashes that result in 11.917 distinct outputs (84.96%)
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: RAM used: 8,29 MiB of 1,60 GiB budget. Usage: 0.51%
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Shaders Compiled: 5.589
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs assigned 5.719, completed 5.589 (97.73%)
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Average time worker was idle: 0.67 s
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Time job spent in pending queue: average 214.26 s, longest 544.82 s
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Job execution time: average 16.12 s, max 280.24 s
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Job life time (pending + execution): average 232.59 s, max 580.44
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Shader code size: average 12,521 KiB, min 144 B, max 148,316 KiB
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 756.89 s
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.12%
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs were issued in 657 batches (only local compilation was used), average 8.70 jobs/batch
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Average processing rate: 7.38 jobs/sec
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread time: 9.050,365 s
+[2025.01.27-13.47.00:222][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread preprocess time: 247,518 s
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Percentage time preprocessing: 2.73%
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Effective parallelization: 11.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 43.21 sec, max 69.27 sec, min 13.64 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 27.48 sec, max 27.48 sec, min 27.48 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                FVisiblityRasterComputeRasterizeMultiSampleCS (compiled    4 times, average 10.90 sec, max 26.35 sec, min 3.48 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                             FDeferredLightPS - 16.10% of total time (compiled  302 times, average 4.83 sec, max 13.42 sec, min 0.63 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 15.07% of total time (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS - 11.96% of total time (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 5.36% of total time (compiled  144 times, average 3.37 sec, max 6.40 sec, min 0.87 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display:                                    FDistanceFieldShadowingCS - 5.19% of total time (compiled  432 times, average 1.09 sec, max 1.59 sec, min 0.58 sec)
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: === Material stats ===
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Cooked:        43
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Translated:    134
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Total Translate Time: 0.72 s
+[2025.01.27-13.47.00:223][233]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Translation Only: 0.60 s (83%)
+[2025.01.27-13.47.00:233][234]LogPlayLevel: UAT: LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.27-13.47.01:485][356]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.27-13.47.03:492][565]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.47.05:502][767]LogPlayLevel: UAT: LogCook: Display: Cooked packages 480 Packages Remain 67 Total 547
+[2025.01.27-13.47.06:052][820]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.06:085][821]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2578MiB, VirtualMemoryAvailable=8562MiB
+[2025.01.27-13.47.06:096][822]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Default in PCD3D_SM5, Default, SM5, Game (DDC key hash: 18982a8f6a8c7370d86844c6dd91eb6b7f3e1244), compiling.
+[2025.01.27-13.47.06:140][823]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_ClearCoat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 509bd122446977fc460f86ac5ede6679ba79fb69), compiling.
+[2025.01.27-13.47.06:140][823]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Sheen in PCD3D_SM5, Default, SM5, Game (DDC key hash: ec281e07ccd9d69923b34c1d8444be2062504e9a), compiling.
+[2025.01.27-13.47.06:228][827]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Transmission in PCD3D_SM5, Default, SM5, Game (DDC key hash: ffd85f758310786674f09a9f8f13c70406e79e81), compiling.
+[2025.01.27-13.47.06:305][832]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_ClearCoat_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 846e1318dfae5c51034081361c40c83bce84224f), compiling.
+[2025.01.27-13.47.07:668][962]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Sheen_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0fe5ef7166f041f8e210f5ef32601ec8e763d2cf), compiling.
+[2025.01.27-13.47.07:876][980]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Transmission_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0c6002e9d96766a4477d298b7e58f4161792935b), compiling.
+[2025.01.27-13.47.08:492][ 37]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 783f0c705ce640e78a395a0e726eaf08918bdd9b), compiling.
+[2025.01.27-13.47.13:501][492]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_SpecularGlossiness_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2282a09a5a4c4b75ed9d69690fbfc176107f1d94), compiling.
+[2025.01.27-13.47.18:505][906]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.20:677][ 83]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.23:499][310]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.24:179][366]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 14b939fb1da4733413b098e2b5f42c47573581bd), compiling.
+[2025.01.27-13.47.27:484][638]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.28:503][727]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Unlit in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2f49a35d4300e39c07afc648cbe32ed70e451040), compiling.
+[2025.01.27-13.47.30:790][921]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TranslucentTransformGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6309fe947ec47954239ab1aa45c87a8fcfec1e3f), compiling.
+[2025.01.27-13.47.33:512][149]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.33:896][184]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DebugEditorMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: bdc505f954bb87b8ad7061889f03ed609b81dcff), compiling.
+[2025.01.27-13.47.35:520][317]LogPlayLevel: UAT: LogCook: Display: Cooked packages 485 Packages Remain 62 Total 547
+[2025.01.27-13.47.35:520][317]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: caef54cc53045c9d99c894e378389775014feda3), compiling.
+[2025.01.27-13.47.40:517][741]LogPlayLevel: UAT: LogCook: Display: Cooked packages 486 Packages Remain 61 Total 547
+[2025.01.27-13.47.44:032][ 34]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2584MiB, VirtualMemoryAvailable=7309MiB
+[2025.01.27-13.47.45:461][147]LogPlayLevel: UAT: LogCook: Display: Cooked packages 486 Packages Remain 61 Total 547
+[2025.01.27-13.47.49:038][430]LogPlayLevel: UAT: LogCook: Display: Cooked packages 487 Packages Remain 60 Total 547
+[2025.01.27-13.47.54:043][801]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: a08ac6b2558eebefc37b8962e9d026c70126620f), compiling.
+[2025.01.27-13.47.55:600][922]LogPlayLevel: UAT: LogCook: Display: Cooked packages 487 Packages Remain 60 Total 547
+[2025.01.27-13.47.56:050][949]LogPlayLevel: UAT: LogCook: Display: Cooked packages 487 Packages Remain 60 Total 547
+[2025.01.27-13.48.01:048][334]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairCardsDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: b0de6a6d0d2c7287c6bf3984fcf458383fd1d563), compiling.
+[2025.01.27-13.48.05:523][674]LogPlayLevel: UAT: LogCook: Display: Cooked packages 490 Packages Remain 57 Total 547
+[2025.01.27-13.48.06:060][714]LogPlayLevel: UAT: LogCook: Display: Cooked packages 490 Packages Remain 57 Total 547
+[2025.01.27-13.48.08:058][873]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2584MiB, VirtualMemoryAvailable=5236MiB
+[2025.01.27-13.48.13:060][278]LogPlayLevel: UAT: LogCook: Display: Cooked packages 490 Packages Remain 57 Total 547
+[2025.01.27-13.48.17:065][612]LogPlayLevel: UAT: LogCook: Display: Cooked packages 491 Packages Remain 56 Total 547
+[2025.01.27-13.48.22:076][ 11]LogPlayLevel: UAT: LogCook: Display: Cooked packages 491 Packages Remain 56 Total 547
+[2025.01.27-13.48.24:624][201]LogPlayLevel: UAT: LogCook: Display: Cooked packages 493 Packages Remain 54 Total 547
+[2025.01.27-13.48.25:328][252]LogPlayLevel: UAT: LogCook: Display: Cooked packages 493 Packages Remain 54 Total 547
+[2025.01.27-13.48.25:448][262]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFSelfShadowedTranslucencyPolicySkylight(permutation 0, format PCD3D_SM5) compile time exceeded threshold (31.716s)
+[2025.01.27-13.48.26:787][363]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Xray in PCD3D_SM5, Default, SM5, Game (DDC key hash: ee261b80c5ed522382779f3f63efe4794467d3b9), compiling.
+[2025.01.27-13.48.28:785][528]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (31.405s)
+[2025.01.27-13.48.33:805][923]LogPlayLevel: UAT: LogCook: Display: Cooked packages 494 Packages Remain 53 Total 547
+[2025.01.27-13.48.35:803][ 75]LogPlayLevel: UAT: LogCook: Display: Cooked packages 495 Packages Remain 52 Total 547
+[2025.01.27-13.48.36:040][ 92]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1350.593384
+[2025.01.27-13.48.36:198][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.27-13.48.36:198][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1350.737305, Update Interval: 315.020599
+[2025.01.27-13.48.38:799][305]LogPlayLevel: UAT: LogCook: Display: Cooked packages 495 Packages Remain 52 Total 547
+[2025.01.27-13.48.38:887][313]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2583MiB, VirtualMemoryAvailable=6421MiB
+[2025.01.27-13.48.39:688][382]LogPlayLevel: UAT: LogCook: Display: Cooked packages 495 Packages Remain 52 Total 547
+[2025.01.27-13.48.41:853][566]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (31.801s)
+[2025.01.27-13.48.44:708][823]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TranslucentUnlitSpriteMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 7f01a07b0695a03ba682f2a7dc0d6c4b525a7584), compiling.
+[2025.01.27-13.48.46:501][985]LogPlayLevel: UAT: LogCook: Display: Cooked packages 496 Packages Remain 51 Total 547
+[2025.01.27-13.48.46:862][ 15]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (31.473s)
+[2025.01.27-13.48.48:552][164]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TimeEmpty1_Video_Mat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 68ff296875170394301f94982c641020b30ab9b8), compiling.
+[2025.01.27-13.48.48:607][168]LogPlayLevel: UAT: LogCook: Display: Cooked packages 496 Packages Remain 51 Total 547
+[2025.01.27-13.48.48:869][192]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial_WS_Normal_VT in PCD3D_SM5, Default, SM5, Game (DDC key hash: cf9e5ffa6fbad6053148fde47d85caafcafb4589), compiling.
+[2025.01.27-13.48.50:548][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFSelfShadowedTranslucencyPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (32.703s)
+[2025.01.27-13.48.50:867][373]LogPlayLevel: UAT: LogCook: Display: Cooked packages 497 Packages Remain 50 Total 547
+[2025.01.27-13.48.52:878][550]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicySkylight(permutation 0, format PCD3D_SM5) compile time exceeded threshold (32.759s)
+[2025.01.27-13.48.54:835][737]LogPlayLevel: UAT: LogCook: Display: Cooked packages 498 Packages Remain 49 Total 547
+[2025.01.27-13.48.57:879][ 18]LogPlayLevel: UAT: LogCook: Display: Cooked packages 499 Packages Remain 48 Total 547
+[2025.01.27-13.48.59:882][202]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: b5bedc9fdbba5442a50141f3573007bb4fd807e2), compiling.
+[2025.01.27-13.49.01:881][371]LogPlayLevel: UAT: LogCook: Display: Cooked packages 499 Packages Remain 48 Total 547
+[2025.01.27-13.49.02:660][443]LogPlayLevel: UAT: LogCook: Display: Cooked packages 500 Packages Remain 47 Total 547
+[2025.01.27-13.49.02:660][443]LogPlayLevel: UAT: LogCook: Display: Cooked packages 501 Packages Remain 46 Total 547
+[2025.01.27-13.49.03:396][501]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque_OneSided in PCD3D_SM5, Default, SM5, Game (DDC key hash: 30f68bdbe995cec98eb14d037285107a4f57deb0), compiling.
+[2025.01.27-13.49.03:891][545]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PreviewShadowIndicatorMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 98f6a7c9e2cdd5b615d1bd1f4f284e51a65ac075), compiling.
+[2025.01.27-13.49.05:900][724]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for EmissiveMeshMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 87dded4bd7fa279e076c859902c4d649a07d7c43), compiling.
+[2025.01.27-13.49.07:625][884]LogPlayLevel: UAT: LogCook: Display: Cooked packages 502 Packages Remain 45 Total 547
+[2025.01.27-13.49.08:329][949]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2587MiB, VirtualMemoryAvailable=8433MiB
+[2025.01.27-13.49.08:329][949]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFSelfShadowedTranslucencyPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (30.938s)
+[2025.01.27-13.49.08:889][998]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial_VT in PCD3D_SM5, Default, SM5, Game (DDC key hash: c64cb278ebbccd457f97269414f6e6a7d3406777), compiling.
+[2025.01.27-13.49.09:252][ 29]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for FlattenMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4683bb7c842d791a5028271236c9fc38e02d5a98), compiling.
+[2025.01.27-13.49.09:296][ 30]LogPlayLevel: UAT: LogCook: Display: Cooked packages 502 Packages Remain 45 Total 547
+[2025.01.27-13.49.12:557][318]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialToggleButton in PCD3D_SM5, Default, SM5, Game (DDC key hash: 49724edb6a1e43b0ce650a9d5f2ac565071adc72), compiling.
+[2025.01.27-13.49.12:590][319]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SpeedTreeBillboardMaster in PCD3D_SM5, Default, SM5, Game (DDC key hash: 32f4da906332352da5412e8da1fc386b25f66712), compiling.
+[2025.01.27-13.49.13:203][375]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Translucent in PCD3D_SM5, Default, SM5, Game (DDC key hash: db2f06e529eb891ae6b1cabe31f50f624e831595), compiling.
+[2025.01.27-13.49.13:280][382]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialKnob in PCD3D_SM5, Default, SM5, Game (DDC key hash: c6bb8a8467d6be8d6930724c49169b586ed5af68), compiling.
+[2025.01.27-13.49.13:280][382]LogPlayLevel: UAT: LogCook: Display: Cooked packages 505 Packages Remain 42 Total 547
+[2025.01.27-13.49.14:949][524]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_InvalidLightmapSettings in PCD3D_SM5, Default, SM5, Game (DDC key hash: d0b59fc222b6d3058b0c43617833f4dc22f08cbe), compiling.
+[2025.01.27-13.49.15:212][547]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_Manip in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1a57f4d95957e6f4983058794a2bc2380daf3c5a), compiling.
+[2025.01.27-13.49.15:870][602]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PhAT_JointLimitMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 597a938fe2711cd3ef4a8410075fec4fe4e05362), compiling.
+[2025.01.27-13.49.17:208][709]LogPlayLevel: UAT: LogCook: Display: Cooked packages 507 Packages Remain 40 Total 547
+[2025.01.27-13.49.22:214][101]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialEnvelope_ADSR in PCD3D_SM5, Default, SM5, Game (DDC key hash: 50277664e4cd5f6a2750d8a12158ad92c7b28aa3), compiling.
+[2025.01.27-13.49.27:224][489]LogPlayLevel: UAT: LogCook: Display: Cooked packages 509 Packages Remain 38 Total 547
+[2025.01.27-13.49.27:444][507]LogPlayLevel: UAT: LogCook: Display: Cooked packages 509 Packages Remain 38 Total 547
+[2025.01.27-13.49.32:232][908]LogPlayLevel: UAT: LogCook: Display: Cooked packages 509 Packages Remain 38 Total 547
+[2025.01.27-13.49.34:033][ 59]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked_OneSided in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8e65e6a6cb00122547fb95c06dc89a3f8f1e863a), compiling.
+[2025.01.27-13.49.34:779][117]LogPlayLevel: UAT: LogCook: Display: Cooked packages 509 Packages Remain 38 Total 547
+[2025.01.27-13.49.36:777][281]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialRoundedSlider in PCD3D_SM5, Default, SM5, Game (DDC key hash: 229d04fd24f0a6a51e35e3a3da72ece43ec06ad3), compiling.
+[2025.01.27-13.49.36:777][281]LogPlayLevel: UAT: LogCook: Display: Cooked packages 511 Packages Remain 36 Total 547
+[2025.01.27-13.49.40:655][600]LogPlayLevel: UAT: LogCook: Display: Cooked packages 512 Packages Remain 35 Total 547
+[2025.01.27-13.49.40:699][600]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2582MiB, VirtualMemoryAvailable=8075MiB
+[2025.01.27-13.49.40:699][601]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for OpaqueUnlitSpriteMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: c7f80185cee968e3cd67121f81b0ff54fa699c3e), compiling.
+[2025.01.27-13.49.42:311][737]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked in PCD3D_SM5, Default, SM5, Game (DDC key hash: b2b170b1abfcf19cf537015e553e9350dbd7d8b5), compiling.
+[2025.01.27-13.49.42:674][766]LogPlayLevel: UAT: LogCook: Display: Cooked packages 514 Packages Remain 33 Total 547
+[2025.01.27-13.49.43:969][867]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SnapGridMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: c232502574f8383bc5ccd7fa2afba1ffe5862aa0), compiling.
+[2025.01.27-13.49.44:682][926]LogPlayLevel: UAT: LogCook: Display: Cooked packages 515 Packages Remain 32 Total 547
+[2025.01.27-13.49.46:844][ 98]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque in PCD3D_SM5, Default, SM5, Game (DDC key hash: cf0a51d59dff41a53277374b14378d6b277a0250), compiling.
+[2025.01.27-13.49.46:844][ 98]LogPlayLevel: UAT: LogCook: Display: Cooked packages 516 Packages Remain 31 Total 547
+[2025.01.27-13.49.46:844][ 98]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicySkylight(permutation 0, format PCD3D_SM5) compile time exceeded threshold (31.710s)
+[2025.01.27-13.49.47:691][166]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicySkylight(permutation 0, format PCD3D_SM5) compile time exceeded threshold (30.372s)
+[2025.01.27-13.49.47:878][179]LogPlayLevel: UAT: LogShaderCompilers: Display: Job TBasePassPSFSelfShadowedTranslucencyPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (30.574s)
+[2025.01.27-13.49.47:911][181]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for MI_Unlit_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 26c4a6c2047c5ca8c856c66df1dcc652efafef4d), compiling.
+[2025.01.27-13.49.47:988][188]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SplineEditorMeshMat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 7cf0a11555011c87d206b74d53314d765dc56607), compiling.
+[2025.01.27-13.49.49:647][326]LogPlayLevel: UAT: LogCook: Display: Cooked packages 517 Packages Remain 30 Total 547
+[2025.01.27-13.49.49:900][344]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for TransformGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3b6180602af01b155932a2e1dd622f7ce20510c7), compiling.
+[2025.01.27-13.49.53:866][664]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultSpriteMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1bd9cc81d3fd175a44c50bb5ff7912b27fdc794f), compiling.
+[2025.01.27-13.49.53:888][665]LogPlayLevel: UAT: LogCook: Display: Cooked packages 522 Packages Remain 25 Total 547
+[2025.01.27-13.49.55:889][835]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_AudioMaterialMeter in PCD3D_SM5, Default, SM5, Game (DDC key hash: 00eb6d56b91b7812f0b6f768cc16754557dd40fb), compiling.
+[2025.01.27-13.49.57:897][999]LogPlayLevel: UAT: LogCook: Display: Cooked packages 524 Packages Remain 23 Total 547
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogCook: Display: Cooked packages 525 Packages Remain 22 Total 547
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogCook: Display: Cooked packages 526 Packages Remain 21 Total 547
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Total job queries 17.772, among them cache hits 1.363 (7.67%), DDC hits 7.566 (42.57%), Duplicates 1.915 (10.78%)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Tracking 14.494 distinct input hashes that result in 12.556 distinct outputs (86.63%)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: RAM used: 8,62 MiB of 1,60 GiB budget. Usage: 0.53%
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Shaders Compiled: 6.629
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs assigned 6.759, completed 6.629 (98.08%)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Average time worker was idle: 0.58 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Time job spent in pending queue: average 203.86 s, longest 544.82 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Job execution time: average 17.18 s, max 280.24 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Job life time (pending + execution): average 222.15 s, max 580.44
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Shader code size: average 12,182 KiB, min 144 B, max 148,316 KiB
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 937.08 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.21%
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs were issued in 761 batches (only local compilation was used), average 8.88 jobs/batch
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Average processing rate: 7.07 jobs/sec
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread time: 11.421,22 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread preprocess time: 284,708 s
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Percentage time preprocessing: 2.49%
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Effective parallelization: 12.19 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 43.21 sec, max 69.27 sec, min 13.64 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 27.48 sec, max 27.48 sec, min 27.48 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                FVisiblityRasterComputeRasterizeMultiSampleCS (compiled    4 times, average 10.90 sec, max 26.35 sec, min 3.48 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   30 times, average 10.08 sec, max 31.72 sec, min 1.61 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                             FDeferredLightPS - 12.76% of total time (compiled  302 times, average 4.83 sec, max 13.42 sec, min 0.63 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 11.94% of total time (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS - 9.48% of total time (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.78% of total time (compiled  247 times, average 2.67 sec, max 31.80 sec, min 0.64 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.31% of total time (compiled  197 times, average 3.08 sec, max 32.76 sec, min 0.66 sec)
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: === Material stats ===
+[2025.01.27-13.50.00:314][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Cooked:        89
+[2025.01.27-13.50.00:315][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Translated:    179
+[2025.01.27-13.50.00:315][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Total Translate Time: 0.96 s
+[2025.01.27-13.50.00:315][198]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Translation Only: 0.79 s (82%)
+[2025.01.27-13.50.00:325][199]LogPlayLevel: UAT: LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.27-13.50.01:205][273]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.27-13.50.02:149][353]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.50.04:488][550]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for M_VolumeRenderSphereTracePP in PCD3D_SM5, Default, SM5, Game (DDC key hash: 94a491f7026fd523a3f5550b613b60eb3b9a93db), compiling.
+[2025.01.27-13.50.06:786][740]LogPlayLevel: UAT: LogCook: Display: Cooked packages 529 Packages Remain 18 Total 547
+[2025.01.27-13.50.09:501][958]LogPlayLevel: UAT: LogCook: Display: Cooked packages 530 Packages Remain 17 Total 547
+[2025.01.27-13.50.11:510][141]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2584MiB, VirtualMemoryAvailable=8691MiB
+[2025.01.27-13.50.16:507][614]LogPlayLevel: UAT: LogCook: Display: Cooked packages 530 Packages Remain 17 Total 547
+[2025.01.27-13.50.16:804][644]LogPlayLevel: UAT: LogCook: Display: Cooked packages 531 Packages Remain 16 Total 547
+[2025.01.27-13.50.18:516][814]LogPlayLevel: UAT: LogCook: Display: Cooked packages 531 Packages Remain 16 Total 547
+[2025.01.27-13.50.20:518][ 15]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PPM_DefaultCalibrationColor in PCD3D_SM5, Default, SM5, Game (DDC key hash: c04d3092f075e015a9f09249d0a9043526720d27), compiling.
+[2025.01.27-13.50.20:892][ 53]LogPlayLevel: UAT: LogCook: Display: Cooked packages 533 Packages Remain 14 Total 547
+[2025.01.27-13.50.22:528][223]LogPlayLevel: UAT: LogCook: Display: Cooked packages 534 Packages Remain 13 Total 547
+[2025.01.27-13.50.24:527][442]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for HairDebugMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f52895d3fed32f9fddcad50dcd16164569de6abc), compiling.
+[2025.01.27-13.50.25:000][493]LogPlayLevel: UAT: LogCook: Display: Cooked packages 536 Packages Remain 11 Total 547
+[2025.01.27-13.50.25:207][515]LogPlayLevel: UAT: LogCook: Display: Cooked packages 539 Packages Remain 8 Total 547
+[2025.01.27-13.50.28:263][759]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for PPM_DefaultCalibrationGrayscale in PCD3D_SM5, Default, SM5, Game (DDC key hash: 5cff67c1d52bf0a799d7450a3b4b0100dce247dc), compiling.
+[2025.01.27-13.50.32:554][772]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for SpeedTreeMaster in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3055f4206addf3640f5042d315bcf1b10c7d488c), compiling.
+[2025.01.27-13.50.33:272][774]LogPlayLevel: UAT: LogCook: Display: Cooked packages 540 Packages Remain 7 Total 547
+[2025.01.27-13.50.35:769][782]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for DefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4f486050216136e7d5e5c52b852b99ed17c98ef4), compiling.
+[2025.01.27-13.50.36:788][785]LogPlayLevel: UAT: LogCook: Display: Cooked packages 540 Packages Remain 7 Total 547
+[2025.01.27-13.50.38:117][789]LogPlayLevel: UAT: LogMaterial: Display: Missing cached shadermap for m_SimpleVolumetricCloud in PCD3D_SM5, Default, SM5, Game (DDC key hash: 238cc9e902b836c5140aa3ca372b623dfbe058ec), compiling.
+[2025.01.27-13.50.40:108][795]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2572MiB, VirtualMemoryAvailable=8384MiB
+[2025.01.27-13.50.42:110][801]LogPlayLevel: UAT: LogCook: Display: Cooked packages 541 Packages Remain 6 Total 547
+[2025.01.27-13.50.47:114][816]LogPlayLevel: UAT: LogCook: Display: Cooked packages 542 Packages Remain 5 Total 547
+[2025.01.27-13.50.52:120][831]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.50.57:124][846]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.02:130][861]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.06:795][875]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.07:136][876]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.12:141][891]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2572MiB, VirtualMemoryAvailable=9045MiB
+[2025.01.27-13.51.17:143][906]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.19:153][912]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.24:158][927]LogPlayLevel: UAT: LogCook: Display: Cooked packages 544 Packages Remain 3 Total 547
+[2025.01.27-13.51.29:153][190]LogPlayLevel: UAT: LogCook: Display: Cooked packages 545 Packages Remain 2 Total 547
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogCook: Display: Cooked packages 545 Packages Remain 2 Total 547
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogCook: Display: Cooked packages 545 Packages Remain 2 Total 547
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogCook: Display: Cooked packages 547 Packages Remain 0 Total 547
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogCook: Display: Cook Diagnostics: OpenFileHandles=300, VirtualMemory=2572MiB, VirtualMemoryAvailable=9214MiB
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogCook: Display: Finishing up...
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Total job queries 17.984, among them cache hits 1.375 (7.65%), DDC hits 7.566 (42.07%), Duplicates 1.921 (10.68%)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Tracking 14.688 distinct input hashes that result in 12.915 distinct outputs (87.93%)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: RAM used: 8,76 MiB of 1,60 GiB budget. Usage: 0.53%
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Shaders Compiled: 7.122
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs assigned 7.122, completed 7.122 (100%)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Average time worker was idle: 0.52 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Time job spent in pending queue: average 201.80 s, longest 544.82 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Job execution time: average 16.97 s, max 280.24 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Job life time (pending + execution): average 218.77 s, max 580.44
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Shader code size: average 12,33 KiB, min 144 B, max 148,316 KiB
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1029.78 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.22%
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Jobs were issued in 851 batches (only local compilation was used), average 8.37 jobs/batch
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Average processing rate: 6.92 jobs/sec
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread time: 12.558,703 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Total thread preprocess time: 299,448 s
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Percentage time preprocessing: 2.38%
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Effective parallelization: 12.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 43.21 sec, max 69.27 sec, min 13.64 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 27.48 sec, max 27.48 sec, min 27.48 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                FVisiblityRasterComputeRasterizeMultiSampleCS (compiled    4 times, average 10.90 sec, max 26.35 sec, min 3.48 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                             FDeferredLightPS - 11.61% of total time (compiled  302 times, average 4.83 sec, max 13.42 sec, min 0.63 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 10.86% of total time (compiled  144 times, average 9.47 sec, max 19.36 sec, min 2.16 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                          FClusteredShadingPS - 8.62% of total time (compiled   32 times, average 33.82 sec, max 273.36 sec, min 3.75 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 5.75% of total time (compiled  128 times, average 5.64 sec, max 12.25 sec, min 2.49 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.74% of total time (compiled  290 times, average 2.49 sec, max 31.80 sec, min 0.64 sec)
+[2025.01.27-13.51.30:462][342]LogPlayLevel: UAT: LogShaderCompilers: Display: === Material stats ===
+[2025.01.27-13.51.30:473][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Cooked:        110
+[2025.01.27-13.51.30:473][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Materials Translated:    186
+[2025.01.27-13.51.30:473][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Total Translate Time: 0.99 s
+[2025.01.27-13.51.30:473][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Translation Only: 0.81 s (82%)
+[2025.01.27-13.51.30:473][343]LogPlayLevel: UAT: LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.27-13.51.30:572][355]LogPlayLevel: UAT: LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.27-13.51.30:583][356]LogPlayLevel: UAT: LogShaderCompilers: Display: ================================================
+[2025.01.27-13.51.30:605][358]LogPlayLevel: UAT: LogAssetRegistryGenerator: Display: Saving asset registry v17.
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogAssetRegistryGenerator: Display: Generated development asset registry C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Saved/Cooked/Windows/Panda/Metadata/DevelopmentAssetRegistry.bin num assets 562, size is 444.15kb, XxHash64[LE] = 0x1CBC13ECEBA70C01, waited on hash 0.00 seconds
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogAssetRegistryGenerator: Display: Generated asset registry num assets 555, size is 200.17kb
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display:
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Shader Library 'Panda' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Assets: 95, Unique Shadermaps: 95 (100.00%)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shaders: 2232, Unique Shaders: 1586 (71.06%)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shader Size: 18.25mb, Unique Shaders Size: 14.23mb (77.94%)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: === Extended info:
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Median number of shaders in shadermap: 12
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Maximum number of shaders in shadermap: 609
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display:     19, 17, 17, 17, 16, 16, 16, 14, 12, 12
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Compute: 371 shaders (23.39%), compressed size: 5.57 MB (15.37 KB avg per shader), uncompressed size: 7.44 MB (20.54 KB avg per shader)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Pixel: 706 shaders (44.51%), compressed size: 4.85 MB (7.04 KB avg per shader), uncompressed size: 6.31 MB (9.15 KB avg per shader)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Vertex: 447 shaders (28.18%), compressed size: 3.21 MB (7.36 KB avg per shader), uncompressed size: 4.27 MB (9.78 KB avg per shader)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Mesh: 60 shaders (3.78%), compressed size: 0.58 MB (9.98 KB avg per shader), uncompressed size: 0.71 MB (12.18 KB avg per shader)
+[2025.01.27-13.51.30:693][367]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.13%), compressed size: 0.01 MB (5.30 KB avg per shader), uncompressed size: 0.01 MB (7.49 KB avg per shader)
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Textual dump saved to 'C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Panda-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display:
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Shader Library 'Panda' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Assets: 95, Unique Shadermaps: 94 (98.95%)
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shaders: 1447, Unique Shaders: 956 (66.07%)
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Total Shader Size: 3.94mb, Unique Shaders Size: 2.94mb (74.67%)
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: === Extended info:
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Median number of shaders in shadermap: 8
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Maximum number of shaders in shadermap: 248
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display:     18, 17, 17, 16, 16, 16, 15, 15, 14, 10
+[2025.01.27-13.51.30:726][371]LogPlayLevel: UAT: LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Pixel: 504 shaders (52.72%), compressed size: 1.25 MB (2.55 KB avg per shader), uncompressed size: 4.59 MB (9.33 KB avg per shader)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Vertex: 336 shaders (35.15%), compressed size: 0.86 MB (2.62 KB avg per shader), uncompressed size: 2.69 MB (8.21 KB avg per shader)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Compute: 114 shaders (11.92%), compressed size: 0.82 MB (7.39 KB avg per shader), uncompressed size: 3.65 MB (32.81 KB avg per shader)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.21%), compressed size: 0.00 MB (1.66 KB avg per shader), uncompressed size: 0.01 MB (5.37 KB avg per shader)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: Textual dump saved to 'C:/Users/pfahr/Documents/GitHub/GGJ2025/Panda/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Panda-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogShaderLibrary: Display: =================
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCook: Display: Finalize package store(s)...
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCook: Display: Cook by the book total time in tick 450.040939s total time 1043.950073
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCook: Display: Peak Used virtual 2842 MiB Peak Used physical 2852 MiB
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCook: Display: Packages Cooked: 540, Packages Iteratively Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 547
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display: Hierarchy Timer Information:
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:   Root: 0.000s (0)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:     CleanSandbox: 0.078s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:     CollectFilesToCook: 0.005s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:     TickMainCookLoop: 450.041s (2)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       PumpPollables: 0.115s (245)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       PumpRequests: 0.032s (19)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       LoadPackageForCooking: 2.552s (547)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       ValidateSourcePackage: 0.000s (547)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       SavingPackages: 22.056s (42031)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         PollPendingCookedPlatformDatas: 3.772s (2164619)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         PrepareSave: 0.635s (2164250)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         PrecachePlatformDataForNextPackage: 9.808s (546)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:           PrepareSave: 9.807s (825)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         SaveCookedPackage: 3.249s (547)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:           GEditorSavePackage: 3.194s (547)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:             VerifyCanCookPackage: 0.005s (540)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.018s (547)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       WaitForAsync: 416.952s (4879221)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       PostLoadPackageFixup: 0.000s (5)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:     CookByTheBookFinished: 0.278s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       SavingCurrentIniSettings: 0.057s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         ProcessingAccessedStrings: 0.010s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       ChunkGeneration: 0.015s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       FinishPopulateShaderLibrary: 0.001s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       BuildChunkManifest: 0.030s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.008s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       SaveManifests: 0.000s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       SaveAssetRegistry: 0.032s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       WriteCookerOpenOrder: 0.030s (1)
+[2025.01.27-13.51.30:737][372]LogPlayLevel: UAT: LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:       WriteReferencedSet: 0.002s (1)
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:       FinalizePackageStore: 0.002s (1)
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: Misc Cook Stats
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: ===============
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: Niagara
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraScriptTranslationCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: NiagaraShader.Misc
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     ShadersCompiled=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: ComputeKernelShader.Misc
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     ShadersCompiled=258
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: ShaderCompiler
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     BlockingTimeSec=597.466161
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     AsyncCompileTimeSec=12825.159376
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=1.060845
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     GlobalBeginCompileShaderCalls=18274
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     ProcessAsyncResultsTimeSec=590.961264
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: GlobalShader.Misc
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     ShadersCompiled=13277
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: Material
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     FinishCacheShadersSec=1.979759
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: Package.Load
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NumRequestedLoads=270
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NumPackagesLoaded=3359
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NumInlineLoads=3089
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     LoadPackageTimeSec=2.978267
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: Package.Save
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NumPackagesIterativelySkipped=0
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     NumPackagesSaved=547
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     SavePackageTimeSec=3.159391
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     SerializeBulkDataTimeSec=0.005588
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display:     MBWritten=0.000000
+[2025.01.27-13.51.30:748][373]LogPlayLevel: UAT: LogCookStats: Display: CookOnTheFlyServer
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     PeakRequestQueueSize=545
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     PeakLoadQueueSize=209
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     PeakSaveQueueSize=134
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: Package.DiffTotal
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     NumberOfDifferentPackages=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     NumberOfDifferencesInPackages=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: UnversionedProperties
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     SavedStructs=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     SavedMB=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     EquivalentTaggedMB=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     CompressionRatio=-nan(ind)
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:     BitfieldWasteKB=0
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: Cook Profile
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display: ============
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0.CookWallTimeSec=1053.151158
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0. 0.StartupWallTimeSec=8.189912
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=594.329881
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.011565
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.000022
+[2025.01.27-13.51.30:749][373]LogPlayLevel: UAT: LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=84.099000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=2.551718
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=3.249810
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=10.587802
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.302028
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.065730
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000551
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000153
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.044948
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  0. 10.ValidationTimeSec=0.000218
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1.CookParameters=
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 0.TargetPlatforms=Windows
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 1.CookProject=Panda
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 2.CookCultures=en
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 3.IsCookAll=false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 5.IsIterativeCook=false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 6.IsUnversioned=true
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 7.CookLabel=
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:  1. 8.IsFastCook=false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display:
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: DDC Summary Stats
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: =================
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: HasLocalCache   =      true
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: HasSharedCache  =     false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: HasCloudCache   =     false
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: HasZenCache     =      true
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalGetHits    =      8239
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalGetMisses  =     11247
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalGets       =     19486
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalGetHitPct  =  0.422816
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: GetMissPct      =  0.577184
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalPutHits    =     11246
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalPutMisses  =         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalPuts       =     11246
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: TotalPutHitPct  =  1.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: PutMissPct      =  0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: LocalGetHits    =      7778
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: LocalGetMisses  =     11245
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: LocalGetTotal   =     19023
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: LocalGetHitPct  =  0.408873
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: SharedGetHits   =         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: SharedGetTotal  =         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: SharedGetHitPct =  0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenLocalGetHits =      7778
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenLocalGetTotal=     19023
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenLocalGetHitPct=  0.408873
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenRemoteGetHits=         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenRemoteGetTotal=         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: CloudGetHits    =         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: CloudGetTotal   =         0
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: CloudGetHitPct  =  0.000000
+[2025.01.27-13.51.30:759][374]LogPlayLevel: UAT: LogCookStats: Display: LocalLatency    =  0.229534
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: LocalReadSpeed  =  0.008043
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: LocalWriteSpeed = 63.934856
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: SharedLatency   =  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: SharedReadSpeed =  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: SharedWriteSpeed=  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: CloudLatency    =  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: CloudReadSpeed  =  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: CloudWriteSpeed =  0.000000
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display:
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: DDC Resource Stats
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: =======================================================================================================
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2025.01.27-13.51.30:760][374]LogPlayLevel: UAT: LogCookStats: Display: Shader                                          1.26                   0.00          7122         84.42
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: MaterialShader                                  0.64                   0.55           186          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: GlobalShader                                    0.62                   0.53           736          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: Texture                                         0.37                   0.00             0         17.44
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: BulkDataList                                    0.10                   0.00          3086          0.02
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: MaterialTranslation                             0.04                   0.00           109          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: StaticMesh                                      0.04                   0.01             0          1.21
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: DistanceField                                   0.04                   0.00             0          0.27
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: CardRepresentation                              0.03                   0.00             0          0.02
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: NavCollision                                    0.02                   0.00             0          0.04
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: STREAMEDAUDIO                                   0.01                   0.00             0          1.21
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: GeometryCollection                              0.01                   0.01             1          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: Audio                                           0.00                   0.00             0          1.20
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: CKERSM                                          0.00                   0.00             6          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: BodySetup                                       0.00                   0.00             0          0.31
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             0          0.00
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogPackageBuildDependencyTracker: Display: Package Accesses (282 referencing packages with a total of 2166 unique accesses)
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogConfigBuildDependencyTracker: Display: Config Accesses (316 referencing packages with a total of 1630 unique accesses). 2710 unique accesses that were not associated with a package.
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogCook: Display: Done!
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogSavePackage: Display: Took 0.000510s to verify the EDL loading graph.
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogInit: Display:
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: LogInit: Display:
+[2025.01.27-13.51.30:770][374]LogPlayLevel: UAT: 
+[2025.01.27-13.51.31:640][470]LogPlayLevel: UAT: Execution of commandlet took:  17m 24s (1044.97 seconds)
+[2025.01.27-13.51.32:971][605]LogPlayLevel: UAT: LogShaderCompilers: Display: Shaders left to compile 0
+[2025.01.27-13.51.32:971][605]LogPlayLevel: UAT: LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.01.27-13.51.32:971][605]LogPlayLevel: UAT: Took 1.055,67s to run UnrealEditor-Cmd.exe, ExitCode=0
+[2025.01.27-13.51.32:971][605]LogPlayLevel: UAT: Cook command time: 1055.68 s
+[2025.01.27-13.51.32:982][606]LogPlayLevel: UAT: ********** COOK COMMAND COMPLETED **********
+[2025.01.27-13.51.32:994][608]LogPlayLevel: Completed Launch On Stage: Cook Task, Time: 1055.072037
+[2025.01.27-13.51.33:004][609]LogPlayLevel: UAT: ********** STAGE COMMAND STARTED **********
+[2025.01.27-13.51.33:015][610]LogPlayLevel: UAT: Creating Staging Manifest...
+[2025.01.27-13.51.33:092][619]LogPlayLevel: UAT: Patching bootstrap executable; C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Intermediate\Staging\Panda.exe
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Begin update resource 'C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Intermediate\Staging\Panda.exe' (0)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 101, length 104 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 1, length 1996 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 2, length 2447 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 3, length 2535 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 4, length 3037 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 5, length 3244 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 6, length 3531 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 7, length 6931 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 201, length 104 (True)
+[2025.01.27-13.51.33:103][620]LogPlayLevel: UAT: Add resource 202, length 60 (True)
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: End update resource (True/0)
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Base.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseCompat.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseDeviceProfiles.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseEditor.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseEditorKeyBindings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseEditorSettings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseEngine.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseGame.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseGameUserSettings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseHardware.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseInput.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseInstallBundle.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseLightmass.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BasePakFileRules.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseRuntimeOptions.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\BaseScalability.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\BaseSourceControlSettings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\ConfigRedirects.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\ConsoleVariables.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\PluginBase.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Layouts\DefaultLayout.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Layouts\UE4ClassicLayout.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\Category.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\Editor.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\EditorTutorials.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\Engine.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\Keywords.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\PortableObjectExport.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\PortableObjectImport.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\PropertyNames.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\RepairData.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\ToolTips.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Localization\WordCount.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\BaseWindowsEngine.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\BaseWindowsInput.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\WindowsEngine.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\WindowsGame.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file Y:\Epic Games\UE_5.5\Engine\Config\Windows\WindowsInput.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Excluding config file C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Config\DefaultEditor.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Config\DefaultEngine.ini
+[2025.01.27-13.51.33:114][622]LogPlayLevel: UAT: Including config file C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Config\DefaultGame.ini
+[2025.01.27-13.51.33:334][642]LogPlayLevel: UAT: Including config file C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Config\DefaultInput.ini
+[2025.01.27-13.51.33:334][642]LogPlayLevel: UAT: Cleaning Stage Directory: C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Saved\StagedBuilds\Windows
+[2025.01.27-13.51.33:345][642]LogPlayLevel: UAT: DumpManifest: C:\Users\pfahr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\Y+Epic+Games+UE_5.5\FinalCopyWin64_UFSFiles.txt, NumItems: 2808
+[2025.01.27-13.51.33:345][642]LogPlayLevel: UAT: DumpManifest: C:\Users\pfahr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\Y+Epic+Games+UE_5.5\FinalCopyWin64_NonUFSFiles.txt, NumItems: 32
+[2025.01.27-13.51.33:345][642]LogPlayLevel: UAT: DumpManifest: C:\Users\pfahr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\Y+Epic+Games+UE_5.5\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 5
+[2025.01.27-13.51.33:587][663]LogPlayLevel: UAT: Copying NonUFSFiles to staging directory: C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Saved\StagedBuilds\Windows
+[2025.01.27-13.51.37:170][742]LogPlayLevel: UAT: Copying UFSFiles to staging directory: C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Saved\StagedBuilds\Windows
+[2025.01.27-13.51.37:291][743]LogPlayLevel: UAT: Copying DebugFiles to staging directory: C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Saved\StagedBuilds\Windows
+[2025.01.27-13.51.37:291][743]LogPlayLevel: UAT: Stage command time: 4.32 s
+[2025.01.27-13.51.37:302][743]LogPlayLevel: UAT: ********** STAGE COMMAND COMPLETED **********
+[2025.01.27-13.51.37:324][743]LogPlayLevel: UAT: ********** DEPLOY COMMAND STARTED **********
+[2025.01.27-13.51.37:324][743]LogPlayLevel: UAT: Deploy command time: 0.02 s
+[2025.01.27-13.51.37:324][743]LogPlayLevel: UAT: ********** DEPLOY COMMAND COMPLETED **********
+[2025.01.27-13.51.37:324][743]LogPlayLevel: UAT: ********** RUN COMMAND STARTED **********
+[2025.01.27-13.51.37:335][743]LogPlayLevel: UAT: UnrealTrace: Starting server
+[2025.01.27-13.51.37:335][743]LogPlayLevel: UAT: Opening exist instance's shared memory
+[2025.01.27-13.51.37:346][743]LogPlayLevel: UAT: Existing instance is the same age or newer
+[2025.01.27-13.51.37:346][743]LogPlayLevel: UAT: Starting Client....
+[2025.01.27-13.51.37:501][743]LogPlayLevel: Completed Launch On Stage: Deploy Task, Time: 4.003572
+[2025.01.27-13.51.39:451][749]LogPlayLevel: UAT: Running: C:\Users\pfahr\Documents\GitHub\GGJ2025\Panda\Saved\StagedBuilds\Windows\Engine\Binaries\Win64\UnrealGame-Win64-Shipping.exe -project="../../../Panda/Panda.uproject" /Game/MarcContents/Levels/MainMenuLevel -abslog="C:\Users\pfahr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\Y+Epic+Games+UE_5.5\Client.log" -stdout -AllowStdOutLogVerbosity -Windowed -Messaging -CrashForUAT -SessionId=BAE567B64AEDC3726A5F7A93C9FE42BE -SessionOwner="pfahr" -SessionName="Launch On Device"
+[2025.01.27-13.51.39:451][749]LogPlayLevel: UAT: [2025.01.27-13.51.39:447][  0]LogMemory: Platform Memory Stats for Windows
+[2025.01.27-13.51.39:451][749]LogPlayLevel: UAT: [2025.01.27-13.51.39:447][  0]LogMemory: Process Physical Memory: 112.35 MB used, 132.68 MB peak
+[2025.01.27-13.51.39:451][749]LogPlayLevel: UAT: [2025.01.27-13.51.39:447][  0]LogMemory: Process Virtual Memory: 123.40 MB used, 123.40 MB peak
+[2025.01.27-13.51.39:451][749]LogPlayLevel: UAT: [2025.01.27-13.51.39:447][  0]LogMemory: Physical Memory: 12039.45 MB used,  20644.63 MB free, 32684.07 MB total
+[2025.01.27-13.51.42:932][759]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.01.27-13.53.29:050][ 78]LogPlayLevel: UAT: [2025.01.27-13.51.39:447][  0]LogMemory: Virtual Memory: 20655.03 MB used,  14077.05 MB free, 34732.07 MB total
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: [2025.01.27-13.53.29:043][277]Closing by request
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: Client exited with error code: 0 (see C:\Users\pfahr\AppData\Roaming\Unreal Engine\AutomationTool\Logs\Y+Epic+Games+UE_5.5\Client.log for more info)
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: Run command time: 113.40 s
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: ********** RUN COMMAND COMPLETED **********
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: BuildCookRun time: 1173.80 s
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: BUILD SUCCESSFUL
+[2025.01.27-13.53.30:727][ 83]LogPlayLevel: UAT: AutomationTool executed for 0h 19m 34s
+[2025.01.27-13.53.30:917][ 83]LogPlayLevel: Completed Launch On Stage: Run Task, Time: 112.913362
+[2025.01.27-13.53.31:420][ 85]LogPlayLevel: Completed Launch On Stage: Post Launch Task, Time: 0.000012
+[2025.01.27-13.53.31:430][ 85]LogPlayLevel: UAT: AutomationTool exiting with ExitCode=0 (Success)
+
+[2025.01.27-13.53.31:430][ 85]LogPlayLevel: Launch On Completed. Time: 1176.038449
+[2025.01.27-13.54.08:566][534]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1683.117920
+[2025.01.27-13.54.09:566][537]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.27-13.54.09:566][537]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1683.784668, Update Interval: 354.070862
